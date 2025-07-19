@@ -1,0 +1,1504 @@
+Program Version:,EnergyPlus, Version 25.1.0-c4ec94aef2, YMD=2025.07.02 12:31
+Tabular Output Report in Format: ,Comma
+
+Building:,Building 1
+Environment:,CEA_DENVER_0509 (01-01:31-12) ** Denver Intl Ap CO USA TMY3 WMO#=725650
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Annual Building Utility Performance Summary
+FOR:,Entire Facility
+Values gathered over      8760.00 hours
+
+Site and Source Energy
+
+,,Total Energy [GJ],Energy Per Total Building Area [MJ/m2],Energy Per Conditioned Building Area [MJ/m2]
+,Total Site Energy,25586.46,7195.30,7776.23
+,Net Site Energy,25586.46,7195.30,7776.23
+,Total Source Energy,81032.33,22787.53,24627.31
+,Net Source Energy,81032.33,22787.53,24627.31
+
+
+Site to Source Energy Conversion Factors
+
+,,Site=>Source Conversion Factor
+,Electricity,3.167
+,Natural Gas,1.084
+,District Cooling,1.056
+,District Heating Water,3.613
+,District Heating Steam,1.200
+,Gasoline,1.050
+,Diesel,1.050
+,Coal,1.050
+,Fuel Oil No 1,1.050
+,Fuel Oil No 2,1.050
+,Propane,1.050
+,Other Fuel 1,1.000
+,Other Fuel 2,1.000
+
+
+Building Area
+
+,,Area [m2]
+,Total Building Area,3555.99
+,Net Conditioned Building Area,3290.34
+,Unconditioned Building Area,265.65
+
+
+End Uses
+
+,,Electricity [GJ],Natural Gas [GJ],Gasoline [GJ],Diesel [GJ],Coal [GJ],Fuel Oil No 1 [GJ],Fuel Oil No 2 [GJ],Propane [GJ],Other Fuel 1 [GJ],Other Fuel 2 [GJ],District Cooling [GJ],District Heating Water [GJ],District Heating Steam [GJ],Water [m3]
+,Heating,140.95,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,3438.20,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Lighting,17198.39,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,714.86,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,3444.42,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,600.13,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,49.50,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,10303.03
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,,,,,,,,,
+,Total End Uses,25586.46,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,10303.03
+Note: Electricity appears to be the principal heating source based on energy usage.
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [GJ],Natural Gas [GJ],Gasoline [GJ],Diesel [GJ],Coal [GJ],Fuel Oil No 1 [GJ],Fuel Oil No 2 [GJ],Propane [GJ],Other Fuel 1 [GJ],Other Fuel 2 [GJ],District Cooling [GJ],District Heating Water [GJ],District Heating Steam [GJ],Water [m3]
+,Heating,General,1.15,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,Boiler,139.80,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,Boiler Parasitic,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,General,3438.20,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Lighting,ELECTRIC EQUIPMENT#MECH:MECH#GeneralLights,9.94,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#ELEVATOR:ELEVATOR#GeneralLights,3.18,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#STAIRS1:STAIRS1#GeneralLights,1.12,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GA3F:GA3F#GeneralLights,166.09,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GA2F:GA2F#GeneralLights,166.09,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GA1F:GA1F#GeneralLights,166.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#STAIRS2:STAIRS2#GeneralLights,1.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#MECHSHAFT:MECHSHAFT#GeneralLights,30.93,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GERMINATION:GERMINATION#GeneralLights,9.16,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:LUNCH#GeneralLights,3.17,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:MENS#GeneralLights,3.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:WOMENS#GeneralLights,3.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:STORAGE#GeneralLights,3.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:OFFICE#GeneralLights,3.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:SERVICE#GeneralLights,3.17,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:TRANSPLANT#GeneralLights,9.02,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:CAS#GeneralLights,34.35,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:CLEANING#GeneralLights,4.56,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,IndoorLivingWall,16577.14,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,General,714.86,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,General,3444.42,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,600.13,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,49.50,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,10303.03
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+End Uses By Space Type
+
+,,Space Type,Electricity [GJ],Natural Gas [GJ],Gasoline [GJ],Diesel [GJ],Coal [GJ],Fuel Oil No 1 [GJ],Fuel Oil No 2 [GJ],Propane [GJ],Other Fuel 1 [GJ],Other Fuel 2 [GJ],District Cooling [GJ],District Heating Water [GJ],District Heating Steam [GJ],Water [m3]
+,Heating,Unassigned,140.95,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,Unassigned,3438.20,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Lighting,GENERAL,17198.39,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,Unassigned,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,GENERAL,714.86,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,Unassigned,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,Unassigned,3444.42,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,Unassigned,600.13,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,Unassigned,49.50,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,10303.03
+,Humidification,Unassigned,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,Unassigned,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,Unassigned,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,Unassigned,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,Unassigned,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+Normalized Metrics
+Utility Use Per Conditioned Floor Area
+
+,,Electricity Intensity [MJ/m2],Natural Gas Intensity [MJ/m2],Gasoline Intensity [MJ/m2],Diesel Intensity [MJ/m2],Coal Intensity [MJ/m2],Fuel Oil No 1 Intensity [MJ/m2],Fuel Oil No 2 Intensity [MJ/m2],Propane Intensity [MJ/m2],Other Fuel 1 Intensity [MJ/m2],Other Fuel 2 Intensity [MJ/m2],District Cooling Intensity [MJ/m2],District Heating Water Intensity [MJ/m2],District Heating Steam Intensity [MJ/m2],Water Intensity [m3/m2]
+,Lighting,5226.93,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,HVAC,2332.04,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,3.13
+,Other,217.26,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Total,7776.23,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,3.13
+
+
+Utility Use Per Total Floor Area
+
+,,Electricity Intensity [MJ/m2],Natural Gas Intensity [MJ/m2],Gasoline Intensity [MJ/m2],Diesel Intensity [MJ/m2],Coal Intensity [MJ/m2],Fuel Oil No 1 Intensity [MJ/m2],Fuel Oil No 2 Intensity [MJ/m2],Propane Intensity [MJ/m2],Other Fuel 1 Intensity [MJ/m2],Other Fuel 2 Intensity [MJ/m2],District Cooling Intensity [MJ/m2],District Heating Water Intensity [MJ/m2],District Heating Steam Intensity [MJ/m2],Water Intensity [m3/m2]
+,Lighting,4836.45,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
+,HVAC,2157.82,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
+,Other,201.03,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
+,Total,7195.30,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
+
+
+Electric Loads Satisfied
+
+,,Electricity [GJ],Percent Electricity [%]
+,Fuel-Fired Power Generation,0.000,0.00
+,High Temperature Geothermal*,0.000,0.00
+,Photovoltaic Power,0.000,0.00
+,Wind Power,0.000,0.00
+,Power Conversion,0.000,0.00
+,Net Decrease in On-Site Storage,0.000,0.00
+,Total On-Site Electric Sources,0.000,0.00
+,,,
+,Electricity Coming From Utility,25586.462,100.00
+,Surplus Electricity Going To Utility,0.000,0.00
+,Net Electricity From Utility,25586.462,100.00
+,,,
+,Total On-Site and Utility Electric Sources,25586.462,100.00
+,Total Electricity End Uses,25586.462,100.00
+
+
+On-Site Thermal Sources
+
+,,Heat [GJ],Percent Heat [%]
+,Water-Side Heat Recovery,0.00,
+,Air to Air Heat Recovery for Cooling,0.00,
+,Air to Air Heat Recovery for Heating,0.00,
+,High-Temperature Geothermal*,0.00,
+,Solar Water Thermal,0.00,
+,Solar Air Thermal,0.00,
+,Total On-Site Thermal Sources,0.00,
+
+
+Water Source Summary
+
+,,Water [m3],Percent Water [%]
+,Rainwater Collection,0.00,0.00
+,Condensate Collection,0.00,0.00
+,Groundwater Well,0.00,0.00
+,Total On Site Water Sources,0.00,0.00
+,-,-,-
+,Initial Storage,0.00,0.00
+,Final Storage,0.00,0.00
+,Change in Storage,0.00,0.00
+,-,-,-
+,Water Supplied by Utility,10303.03,100.00
+,-,-,-
+,Total On Site, Change in Storage, and Utility Water Sources,10303.03,100.00
+,Total Water End Uses,10303.03,100.00
+
+
+Setpoint Not Met Criteria
+
+,,Degrees [deltaC]
+,Tolerance for Zone Heating Setpoint Not Met Time,1.11
+,Tolerance for Zone Cooling Setpoint Not Met Time,1.11
+
+
+Comfort and Setpoint Not Met Summary
+
+,,Facility [Hours]
+,Time Setpoint Not Met During Occupied Heating,366.00
+,Time Setpoint Not Met During Occupied Cooling,0.00
+,Time Not Comfortable Based on Simple ASHRAE 55-2004,5270.00
+
+
+Note 1: An asterisk (*) indicates that the feature is not yet implemented.
+----------------------------------------------------------------------------------------------------
+REPORT:,Input Verification and Results Summary
+FOR:,Entire Facility
+General
+
+,,Value
+,Program Version and Build,EnergyPlus, Version 25.1.0-c4ec94aef2, YMD=2025.07.02 12:31
+,RunPeriod,CEA_DENVER_0509 (01-01:31-12)
+,Weather File,Denver Intl Ap CO USA TMY3 WMO#=725650
+,Latitude [deg],39.83
+,Longitude [deg],-104.7
+,Elevation [m],1650.00
+,Time Zone,-7.0
+,North Axis Angle [deg],0.00
+,Rotation for Appendix G [deg],0.00
+,Hours Simulated [hrs],8760.00
+
+
+ENVELOPE
+Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],1877.11,537.10,401.45,537.10,401.45
+,Above Ground Wall Area [m2],1852.84,528.43,397.99,528.43,397.99
+,Window Opening Area [m2],26.01,0.00,3.72,11.15,11.15
+,Gross Window-Wall Ratio [%],1.39,0.00,0.93,2.08,2.78
+,Above Ground Window-Wall Ratio [%],1.40,0.00,0.93,2.11,2.80
+
+
+Conditioned Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],1160.76,395.22,337.05,371.63,56.86
+,Above Ground Wall Area [m2],1160.76,395.22,337.05,371.63,56.86
+,Window Opening Area [m2],26.01,0.00,3.72,11.15,11.15
+,Gross Window-Wall Ratio [%],2.24,0.00,1.10,3.00,19.61
+,Above Ground Window-Wall Ratio [%],2.24,0.00,1.10,3.00,19.61
+
+
+Skylight-Roof Ratio
+
+,,Total
+,Gross Roof Area [m2],1686.72
+,Skylight Area [m2],0.00
+,Skylight-Roof Ratio [%],0.00
+
+
+PERFORMANCE
+Zone Summary
+
+,,Area [m2],Conditioned (Y/N),Part of Total Floor Area (Y/N),Volume [m3],Multipliers,Above Ground Gross Wall Area [m2],Underground Gross Wall Area [m2],Window Glass Area [m2],Opening Area [m2],Lighting [W/m2],People [m2 per person],Plug and Process [W/m2]
+,MECH:MECH,56.88,No,Yes,208.05,1.00,19.32,0.00,0.00,0.00,15.0000,9.01,11.7700
+,ELEVATOR:ELEVATOR,18.18,No,Yes,221.64,1.00,93.62,24.27,0.00,0.00,15.0000,9.01,11.7700
+,STAIRS1:STAIRS1,6.39,No,Yes,70.11,1.00,88.06,0.00,0.00,0.00,15.0000,9.01,11.7700
+,GA3F:GA3F,950.66,Yes,Yes,3332.24,1.00,324.43,0.00,0.00,0.00,15.0000,977.83,11.7700
+,GA2F:GA2F,950.66,Yes,Yes,3332.24,1.00,324.43,0.00,0.00,0.00,15.0000,977.83,11.7700
+,GA1F:GA1F,951.58,Yes,Yes,3480.48,1.00,286.52,0.00,0.00,0.00,15.0000,977.83,11.7700
+,STAIRS2:STAIRS2,7.14,No,Yes,78.35,1.00,88.06,0.00,0.00,0.00,15.0000,9.01,11.7700
+,MECHSHAFT:MECHSHAFT,177.06,No,Yes,1942.85,1.00,403.01,0.00,0.00,0.00,15.0000,9.01,11.7700
+,GERMINATION:GERMINATION,52.45,Yes,Yes,191.85,1.00,0.00,0.00,0.00,0.00,15.0000,977.83,11.7700
+,NGA:LUNCH,18.14,Yes,Yes,66.35,1.00,32.11,0.00,6.58,7.43,15.0000,9.01,11.7700
+,NGA:MENS,18.59,Yes,Yes,68.00,1.00,15.39,0.00,0.00,0.00,15.0000,9.01,11.7700
+,NGA:WOMENS,18.59,Yes,Yes,68.00,1.00,15.39,0.00,0.00,0.00,15.0000,9.01,11.7700
+,NGA:STORAGE,18.59,Yes,Yes,68.00,1.00,15.39,0.00,0.00,0.00,15.0000,9.01,11.7700
+,NGA:OFFICE,18.59,Yes,Yes,68.00,1.00,15.39,0.00,3.29,3.72,15.0000,9.01,11.7700
+,NGA:SERVICE,18.14,Yes,Yes,66.35,1.00,32.11,0.00,6.58,7.43,15.0000,9.01,11.7700
+,NGA:TRANSPLANT,51.65,Yes,Yes,188.92,1.00,28.99,0.00,6.58,7.43,15.0000,9.01,11.7700
+,NGA:CAS,196.60,Yes,Yes,719.09,1.00,57.22,0.00,0.00,0.00,15.0000,9.01,11.7700
+,NGA:CLEANING,26.11,Yes,Yes,95.50,1.00,13.38,0.00,0.00,0.00,15.0000,9.01,11.7700
+,Total,3555.99,,,14265.99,,1852.84,24.27,23.03,26.01,15.0000,47.29,11.7700
+,Conditioned Total,3290.34,,,11745.00,,1160.76,0.00,23.03,26.01,15.0000,71.99,11.7700
+,Unconditioned Total,265.65,,,2520.99,,692.08,24.27,0.00,0.00,15.0000,9.01,11.7700
+,Not Part of Total,0.00,,,0.00,,0.00,0.00,0.00,0.00,,,
+
+
+Space Summary
+
+,,Area [m2],Conditioned (Y/N),Part of Total Floor Area (Y/N),Multipliers,Zone Name,Space Type,Radiant/Solar Enclosure Name,Lighting [W/m2],People [m2 per person],Plug and Process [W/m2],Tags
+,MECH:MECH,56.88,No,Yes,1.00,MECH:MECH,GENERAL,MECH:MECH,15.0000,9.01,11.7700,
+,ELEVATOR:ELEVATOR,18.18,No,Yes,1.00,ELEVATOR:ELEVATOR,GENERAL,ELEVATOR:ELEVATOR,15.0000,9.01,11.7700,
+,STAIRS1:STAIRS1,6.39,No,Yes,1.00,STAIRS1:STAIRS1,GENERAL,STAIRS1:STAIRS1,15.0000,9.01,11.7700,
+,GA3F:GA3F,950.66,Yes,Yes,1.00,GA3F:GA3F,GENERAL,GA3F:GA3F,15.0000,977.83,11.7700,
+,GA2F:GA2F,950.66,Yes,Yes,1.00,GA2F:GA2F,GENERAL,GA2F:GA2F,15.0000,977.83,11.7700,
+,GA1F:GA1F,951.58,Yes,Yes,1.00,GA1F:GA1F,GENERAL,GA1F:GA1F,15.0000,977.83,11.7700,
+,STAIRS2:STAIRS2,7.14,No,Yes,1.00,STAIRS2:STAIRS2,GENERAL,STAIRS2:STAIRS2,15.0000,9.01,11.7700,
+,MECHSHAFT:MECHSHAFT,177.06,No,Yes,1.00,MECHSHAFT:MECHSHAFT,GENERAL,MECHSHAFT:MECHSHAFT,15.0000,9.01,11.7700,
+,GERMINATION:GERMINATION,52.45,Yes,Yes,1.00,GERMINATION:GERMINATION,GENERAL,GERMINATION:GERMINATION,15.0000,977.83,11.7700,
+,NGA:LUNCH,18.14,Yes,Yes,1.00,NGA:LUNCH,GENERAL,NGA:LUNCH,15.0000,9.01,11.7700,
+,NGA:MENS,18.59,Yes,Yes,1.00,NGA:MENS,GENERAL,NGA:MENS,15.0000,9.01,11.7700,
+,NGA:WOMENS,18.59,Yes,Yes,1.00,NGA:WOMENS,GENERAL,NGA:WOMENS,15.0000,9.01,11.7700,
+,NGA:STORAGE,18.59,Yes,Yes,1.00,NGA:STORAGE,GENERAL,NGA:STORAGE,15.0000,9.01,11.7700,
+,NGA:OFFICE,18.59,Yes,Yes,1.00,NGA:OFFICE,GENERAL,NGA:OFFICE,15.0000,9.01,11.7700,
+,NGA:SERVICE,18.14,Yes,Yes,1.00,NGA:SERVICE,GENERAL,NGA:SERVICE,15.0000,9.01,11.7700,
+,NGA:TRANSPLANT,51.65,Yes,Yes,1.00,NGA:TRANSPLANT,GENERAL,NGA:TRANSPLANT,15.0000,9.01,11.7700,
+,NGA:CAS,196.60,Yes,Yes,1.00,NGA:CAS,GENERAL,NGA:CAS,15.0000,9.01,11.7700,
+,NGA:CLEANING,26.11,Yes,Yes,1.00,NGA:CLEANING,GENERAL,NGA:CLEANING,15.0000,9.01,11.7700,
+,Total,3555.99,,,,,,,15.0000,47.29,11.7700,
+,Conditioned Total,3290.34,,,,,,,15.0000,71.99,11.7700,
+,Unconditioned Total,265.65,,,,,,,15.0000,9.01,11.7700,
+,Not Part of Total,0.00,,,,,,,0.0000,0.00,0.0000,
+
+
+Space Type Summary
+
+,,Total Area [m2],Conditioned Area [m2],Unconditioned Area [m2],Not Part of Total Area [m2],Lighting [W/m2],People [m2 per person],Plug and Process [W/m2]
+,GENERAL,3555.99,3290.34,265.65,0.00,15.0000,47.29,11.7700
+,Total,3555.99,3290.34,265.65,0.00,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Demand End Use Components Summary
+FOR:,Entire Facility
+End Uses
+
+,,Electricity [W],Natural Gas [W],Gasoline [W],Diesel [W],Coal [W],Fuel Oil No 1 [W],Fuel Oil No 2 [W],Propane [W],Other Fuel 1 [W],Other Fuel 2 [W],District Cooling [W],District Heating Water [W],District Heating Steam [W],Water [m3/s]
+,Time of Peak,20-JUL-16:00,-,-,-,-,-,-,-,-,-,-,-,-,26-JUN-16:00
+,Heating,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,442174.77,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Lighting,836492.33,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,37668.65,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,120934.34,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,35915.58,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,10783.27,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,,,,,,,,,
+,Total End Uses,1483968.96,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [W],Natural Gas [W],Gasoline [W],Diesel [W],Coal [W],Fuel Oil No 1 [W],Fuel Oil No 2 [W],Propane [W],Other Fuel 1 [W],Other Fuel 2 [W],District Cooling [W],District Heating Water [W],District Heating Steam [W],Water [m3/s]
+,Heating,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,Boiler,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,Boiler Parasitic,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,General,442174.77,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Lighting,ELECTRIC EQUIPMENT#MECH:MECH#GeneralLights,767.90,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#ELEVATOR:ELEVATOR#GeneralLights,245.42,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#STAIRS1:STAIRS1#GeneralLights,86.26,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GA3F:GA3F#GeneralLights,12833.87,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GA2F:GA2F#GeneralLights,12833.87,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GA1F:GA1F#GeneralLights,12846.27,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#STAIRS2:STAIRS2#GeneralLights,96.39,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#MECHSHAFT:MECHSHAFT#GeneralLights,2390.31,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#GERMINATION:GERMINATION#GeneralLights,708.11,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:LUNCH#GeneralLights,244.88,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:MENS#GeneralLights,250.97,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:WOMENS#GeneralLights,250.97,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:STORAGE#GeneralLights,250.97,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:OFFICE#GeneralLights,250.97,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:SERVICE#GeneralLights,244.88,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:TRANSPLANT#GeneralLights,697.28,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:CAS#GeneralLights,2654.13,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#NGA:CLEANING#GeneralLights,352.47,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,IndoorLivingWall,788486.40,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,General,37668.65,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,General,120934.34,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,35915.58,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,10783.27,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Component Sizing Summary
+FOR:,Entire Facility
+AirTerminal:SingleDuct:VAV:NoReheat
+
+,,Design Size Maximum Air Flow Rate [m3/s],Design Size Constant Minimum Air Flow Fraction,User-Specified Constant Minimum Air Flow Fraction,Design Size Minimum Air Flow Rate [m3/s]
+,GA3F:GA3F VAV,66.70,0.010860,0.300000,20.01
+,GA2F:GA2F VAV,59.25,0.012225,0.300000,17.78
+,GA1F:GA1F VAV,43.29,0.016750,0.300000,12.99
+User-Specified values were used. Design Size values were used if no User-Specified values were provided. Design Size values may be derived from alternate User-Specified values.
+
+
+ZoneHVAC:PackagedTerminalHeatPump
+
+,,Design Size Cooling Supply Air Flow Rate [m3/s],Design Size Heating Supply Air Flow Rate [m3/s],User-Specified No Load Supply Air Flow Rate [m3/s],Design Size Outdoor Air Flow Rate During Cooling Operation [m3/s],Design Size Outdoor Air Flow Rate During Heating Operation [m3/s],Design Size Outdoor Air Flow Rate When No Cooling or Heating is Needed [m3/s],Design Size Maximum Supply Air Temperature from Supplemental Heater [C]
+,GERMINATION:GERMINATION PTHP,0.328091,0.328091,0.000000,0.000000,0.000000,0.000000,50.00
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Cooling:DX:SingleSpeed
+
+,,Design Size Rated Air Flow Rate [m3/s],Design Size Gross Rated Total Cooling Capacity [W],Design Size Gross Rated Sensible Heat Ratio
+,GERMINATION:GERMINATION PTHP COOLING COIL,0.328091,5431.07,0.800655
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:DX:SingleSpeed
+
+,,Design Size Rated Air Flow Rate [m3/s],Design Size Gross Rated Heating Capacity [W]
+,GERMINATION:GERMINATION PTHP HEATING COIL,0.328091,5431.07
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Fan:OnOff
+
+,,Design Size Maximum Flow Rate [m3/s],Design Electric Power Consumption [W]
+,GERMINATION:GERMINATION PTHP SUPPLY FAN,0.328091,35.15
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:Electric
+
+,,Design Size Nominal Capacity [W]
+,GERMINATION:GERMINATION PTHP SUPP HEATING COIL,1384.05
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirTerminal:SingleDuct:VAV:Reheat
+
+,,Design Size Maximum Air Flow Rate [m3/s],Design Size Constant Minimum Air Flow Fraction,User-Specified Constant Minimum Air Flow Fraction,Design Size Minimum Air Flow Rate [m3/s],Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2],Design Size Maximum Flow Fraction during Reheat [],Design Size Maximum Reheat Water Flow Rate [m3/s],Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s],Design Size Reheat Coil Sizing Inlet Air Temperature [C],Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir]
+,NGA:LUNCH VAV REHEAT,0.061423,0.225027,0.300000,0.018427,0.003386,1.00,0.000036,0.053241,20.00,0.008000
+,NGA:MENS VAV REHEAT,0.039253,0.360890,0.300000,0.011776,0.002111,1.00,0.000023,0.034589,20.00,0.008000
+,NGA:WOMENS VAV REHEAT,0.037093,0.381903,0.300000,0.011128,0.001995,1.00,0.000023,0.034047,20.00,0.008000
+,NGA:STORAGE VAV REHEAT,0.037983,0.372961,0.300000,0.011395,0.002043,1.00,0.000023,0.034208,20.00,0.008000
+,NGA:OFFICE VAV REHEAT,0.047336,0.299265,0.300000,0.014201,0.002546,1.00,0.000025,0.037190,20.00,0.008000
+,NGA:SERVICE VAV REHEAT,0.055378,0.249593,0.300000,0.016613,0.003053,1.00,0.000036,0.053410,20.00,0.008000
+,NGA:TRANSPLANT VAV REHEAT,0.132251,0.297595,0.300000,0.039675,0.002561,1.00,0.000068,0.101502,20.00,0.008000
+,NGA:CAS VAV REHEAT,0.411045,0.364464,0.300000,0.123314,0.002091,1.00,0.000178,0.267614,20.00,0.008000
+,NGA:CLEANING VAV REHEAT,0.102861,0.193416,0.300000,0.030858,0.003940,1.00,0.000022,0.033293,20.00,0.008000
+User-Specified values were used. Design Size values were used if no User-Specified values were provided. Design Size values may be derived from alternate User-Specified values.
+
+
+Coil:Heating:Water
+
+,,Design Size Rated Capacity [W],Design Size Maximum Water Flow Rate [m3/s],Design Size U-Factor Times Area Value [W/K]
+,NGA:LUNCH REHEAT COIL,1607.17,0.000036,40.95
+,NGA:MENS REHEAT COIL,1044.08,0.000023,26.60
+,NGA:WOMENS REHEAT COIL,1027.72,0.000023,26.18
+,NGA:STORAGE REHEAT COIL,1032.59,0.000023,26.31
+,NGA:OFFICE REHEAT COIL,1122.60,0.000025,28.60
+,NGA:SERVICE REHEAT COIL,1612.25,0.000036,41.07
+,NGA:TRANSPLANT REHEAT COIL,3063.73,0.000068,78.05
+,NGA:CAS REHEAT COIL,8078.00,0.000178,205.80
+,NGA:CLEANING REHEAT COIL,1004.82,0.000022,25.60
+,NGA VAV HEATING COIL,17142.30,0.000379,235.66
+,GA1F VAV HEATING COIL,43345.98,0.000958,761.50
+,GA2F VAV HEATING COIL,59172.92,0.001307,1039.58
+,GA3F VAV HEATING COIL,66557.02,0.001470,1169.31
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirLoopHVAC
+
+,,Sum of Air Terminal Maximum Heating Flow Rates [m3/s],Sum of Air Terminal Minimum Heating Flow Rates [m3/s],Sum of Air Terminal Maximum Flow Rates [m3/s],Adjusted Heating Design Air Flow Rate [m3/s],Adjusted Cooling Design Air Flow Rate [m3/s],Adjusted Main Design Air Flow Rate [m3/s],User Heating Air Flow Ratio [],Calculated Heating Air Flow Ratio [],Design Supply Air Flow Rate [m3/s]
+,NGA VAV,0.924624,0.277387,0.924624,0.924624,0.924624,0.924624,0.500000,1.00,0.924624
+,GA1F VAV,12.99,12.99,43.29,12.99,43.29,43.29,0.500000,0.300000,43.29
+,GA2F VAV,17.78,17.78,59.25,17.78,59.25,59.25,0.500000,0.300000,59.25
+,GA3F VAV,20.01,20.01,66.70,20.01,66.70,66.70,0.500000,0.300000,66.70
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Controller:OutdoorAir
+
+,,Maximum Outdoor Air Flow Rate [m3/s],Minimum Outdoor Air Flow Rate [m3/s]
+,NGA VAV OA CONTROLLER,0.924624,0.534190
+,GA1F VAV OA CONTROLLER,43.29,0.012164
+,GA2F VAV OA CONTROLLER,59.25,0.012153
+,GA3F VAV OA CONTROLLER,66.70,0.012153
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Cooling:Water
+
+,,Design Size Design Inlet Air Temperature [C],Design Size Design Inlet Water Temperature [C],Design Size Design Outlet Air Temperature [C],Design Size Design Inlet Air Humidity Ratio [kgWater/kgDryAir],Design Size Design Outlet Air Humidity Ratio [kgWater/kgDryAir],Design Size Design Coil Load [W],Design Size Design Water Flow Rate [m3/s],Design Size Design Air Flow Rate [m3/s]
+,NGA VAV COOLING COIL,24.57,7.22,11.39,0.011447,0.008000,20269.34,0.000724,0.924624
+,GA1F VAV COOLING COIL,20.00,7.22,11.38,0.008111,0.008000,387358.95,0.013836,43.29
+,GA2F VAV COOLING COIL,20.00,7.22,11.38,0.008079,0.008000,525453.45,0.018768,59.25
+,GA3F VAV COOLING COIL,20.00,7.22,11.38,0.008097,0.008000,594459.81,0.021233,66.70
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Fan:VariableVolume
+
+,,Design Size Maximum Flow Rate [m3/s],Design Electric Power Consumption [W]
+,NGA VAV SUPPLY FAN,0.924624,1320.89
+,GA1F VAV SUPPLY FAN,43.29,61842.91
+,GA2F VAV SUPPLY FAN,59.25,84648.85
+,GA3F VAV SUPPLY FAN,66.70,95288.75
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Controller:WaterCoil
+
+,,Maximum Actuated Flow [m3/s],Controller Convergence Tolerance
+,NGA VAV COOLING COIL CONTROLLER,0.000724,0.000658
+,NGA VAV HEATING COIL CONTROLLER,0.000379,0.001000
+,GA1F VAV COOLING COIL CONTROLLER,0.013836,0.000034
+,GA1F VAV HEATING COIL CONTROLLER,0.000958,0.000497
+,GA2F VAV COOLING COIL CONTROLLER,0.018768,0.000025
+,GA2F VAV HEATING COIL CONTROLLER,0.001307,0.000364
+,GA3F VAV COOLING COIL CONTROLLER,0.021233,0.000022
+,GA3F VAV HEATING COIL CONTROLLER,0.001470,0.000324
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+PlantLoop
+
+,,Maximum Loop Flow Rate [m3/s],Plant Loop Volume [m3],Design Supply Temperature [C],Design Return Temperature [C],Sizing option (Coincident/NonCoincident),Minimum Loop Flow Rate [m3/s],Design Capacity [W]
+,HOT WATER LOOP HOT WATER LOOP,0.004547,0.545658,82.00,71.00,1.00,0.000000,209953.20
+,CHILLED WATER LOOP CHILLED WATER LOOP,0.054560,6.55,7.22,0.550000,1.00,0.000000,1527541.56
+,CHILLED WATER LOOP CONDENSER WATER LOOP,,,,,,,2021907.39
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Pump:ConstantSpeed
+
+,,Design Flow Rate [m3/s],Design Power Consumption [W]
+,HOT WATER LOOP HW SUPPLY PUMP,0.004547,1161.74
+,CHILLED WATER LOOP CHW SUPPLY PUMP,0.054560,13939.44
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Boiler:HotWater
+
+,,Design Size Nominal Capacity [W],Design Size Design Water Flow Rate [m3/s]
+,CEA_DENVER BOILER,205811.17,0.004547
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Chiller:Electric:EIR
+
+,,Design Size Reference Chilled Water Flow Rate [m3/s],Design Size Reference Capacity [W],Design Size Reference Condenser Fluid Flow Rate [m3/s]
+,CEA_DENVER CHILLER,0.054560,1527541.56,0.086017
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+CondenserLoop
+
+,,Maximum Loop Flow Rate [m3/s],Condenser Loop Volume [m3],Design Supply Temperature [C],Design Return Temperature [C],Sizing option (Coincident/NonCoincident),Minimum Loop Flow Rate [m3/s]
+,CHILLED WATER LOOP CONDENSER WATER LOOP,0.086017,10.32,29.40,23.80,1.00,0.000000
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Pump:VariableSpeed
+
+,,Design Flow Rate [m3/s],Design Power Consumption [W]
+,CHILLED WATER LOOP CNDW SUPPLY PUMP,0.086017,21976.14
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+CoolingTower:SingleSpeed
+
+,,Design Water Flow Rate [m3/s],Fan Power at Design Air Flow Rate [W],Design Air Flow Rate [m3/s],U-Factor Times Area Value at Design Air Flow Rate [W/C],Free Convection Regime Air Flow Rate [m3/s],Free Convection U-Factor Times Area Value [W/K]
+,MAIN TOWER,0.086017,21138.74,67.90,95610.14,6.79,9561.01
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Adaptive Comfort Summary
+FOR:,Entire Facility
+Time Not Meeting the Adaptive Comfort Models during Occupied Hours
+
+,,ASHRAE55 90% Acceptability Limits [Hours],ASHRAE55 80% Acceptability Limits  [Hours],CEN15251 Category I Acceptability Limits [Hours],CEN15251 Category II Acceptability Limits [Hours],CEN15251 Category III Acceptability Limits [Hours]
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Climatic Data Summary
+FOR:,Entire Facility
+SizingPeriod:DesignDay
+
+,,Maximum Dry Bulb [C],Daily Temperature Range [deltaC],Humidity Value,Humidity Type,Wind Speed [m/s],Wind Direction
+,DENVER INTL AP ANN HTG 99.6% CONDNS DB,-17.40,0.00,-17.40,Wetbulb [C],3.30,160.00
+,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,27.30,15.20,18.30,Wetbulb [C],4.20,80.00
+
+
+Monthly Precipitation Summary
+
+,,Monthly Total Precipitation from .epw [mm],Monthly Total Hours of Rain from .epw,Monthly Total Precipitation in Site:Precipitation [mm],Monthly Total Roof Irrigation Depth [mm],Monthly Total Rain Collection Volume [m3]
+,Jan,0.00,0,744000.00,,
+,Feb,9.00,8,672000.00,,
+,Mar,12.00,6,744000.00,,
+,Apr,101.00,43,720000.00,,
+,May,41.00,14,744000.00,,
+,Jun,20.00,4,720000.00,,
+,Jul,89.00,18,744000.00,,
+,Aug,9.00,5,744000.00,,
+,Sep,0.00,0,720000.00,,
+,Oct,5.00,2,744000.00,,
+,Nov,5.00,3,720000.00,,
+,Dec,1.00,1,744000.00,,
+
+
+Weather Statistics File
+
+,,Value
+,None,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Envelope Summary
+FOR:,Entire Facility
+Opaque Exterior
+
+,,Construction,Zone,Space,Reflectance,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Net Area [m2],Azimuth [deg],Tilt [deg],Cardinal Direction
+,MECH:MECH_WALL_4_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,MECH:MECH,MECH:MECH,0.30,4.201,11.319,19.32,19.32,270.00,90.00,W
+,MECH:MECH_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,MECH:MECH,MECH:MECH,0.30,4.364,14.895,22.10,22.10,0.00,180.00,
+,MECH:MECH_GROUNDFLOOR_0_0_1,CEA_DENVER FLOOR - GROWINGAREA,MECH:MECH,MECH:MECH,0.30,4.364,14.895,36.29,36.29,0.00,180.00,
+,MECH:MECH_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,MECH:MECH,MECH:MECH,0.40,0.107,0.108,17.34,17.34,180.00,0.00,
+,MECH:MECH_ROOF_1_0_1,CEA_DENVER ROOF - GROWINGAREA,MECH:MECH,MECH:MECH,0.40,0.107,0.108,41.06,41.06,180.00,0.00,
+,ELEVATOR:ELEVATOR_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.201,11.319,20.80,20.80,90.00,90.00,E
+,ELEVATOR:ELEVATOR_WALL_2_1_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.805,11.319,3.47,3.47,90.00,90.00,E
+,ELEVATOR:ELEVATOR_WALL_3_4_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.805,11.319,8.67,8.67,0.00,90.00,N
+,ELEVATOR:ELEVATOR_WALL_4_1_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.201,11.319,20.80,20.80,270.00,90.00,W
+,ELEVATOR:ELEVATOR_WALL_4_2_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.805,11.319,3.47,3.47,270.00,90.00,W
+,ELEVATOR:ELEVATOR_WALL_5_1_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.201,11.319,52.02,52.02,180.00,90.00,S
+,ELEVATOR:ELEVATOR_WALL_5_2_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.805,11.319,8.67,8.67,180.00,90.00,S
+,ELEVATOR:ELEVATOR_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.30,4.364,14.895,20.22,20.22,0.00,180.00,
+,ELEVATOR:ELEVATOR_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,0.40,0.107,0.108,20.22,20.22,180.00,0.00,
+,STAIRS1:STAIRS1_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,STAIRS1:STAIRS1,STAIRS1:STAIRS1,0.30,4.201,11.319,20.07,20.07,90.00,90.00,E
+,STAIRS1:STAIRS1_WALL_4_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,STAIRS1:STAIRS1,STAIRS1:STAIRS1,0.30,4.201,11.319,20.07,20.07,270.00,90.00,W
+,STAIRS1:STAIRS1_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,STAIRS1:STAIRS1,STAIRS1:STAIRS1,0.30,4.201,11.319,47.93,47.93,180.00,90.00,S
+,STAIRS1:STAIRS1_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,STAIRS1:STAIRS1,STAIRS1:STAIRS1,0.30,4.364,14.895,7.99,7.99,0.00,180.00,
+,STAIRS1:STAIRS1_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,STAIRS1:STAIRS1,STAIRS1:STAIRS1,0.40,0.107,0.108,7.99,7.99,180.00,0.00,
+,GA3F:GA3F_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA3F:GA3F,GA3F:GA3F,0.40,0.158,0.162,86.96,86.96,90.00,90.00,E
+,GA3F:GA3F_WALL_3_1_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA3F:GA3F,GA3F:GA3F,0.40,0.158,0.162,131.74,131.74,0.00,90.00,N
+,GA3F:GA3F_WALL_5_1_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA3F:GA3F,GA3F:GA3F,0.40,0.158,0.162,105.73,105.73,180.00,90.00,S
+,GA3F:GA3F_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,GA3F:GA3F,GA3F:GA3F,0.40,0.107,0.108,960.15,960.15,180.00,0.00,
+,GA2F:GA2F_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA2F:GA2F,GA2F:GA2F,0.40,0.158,0.162,86.96,86.96,90.00,90.00,E
+,GA2F:GA2F_WALL_3_1_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA2F:GA2F,GA2F:GA2F,0.40,0.158,0.162,131.74,131.74,0.00,90.00,N
+,GA2F:GA2F_WALL_5_1_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA2F:GA2F,GA2F:GA2F,0.40,0.158,0.162,105.73,105.73,180.00,90.00,S
+,GA1F:GA1F_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA1F:GA1F,GA1F:GA1F,0.40,0.158,0.162,86.96,86.96,90.00,90.00,E
+,GA1F:GA1F_WALL_3_1_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA1F:GA1F,GA1F:GA1F,0.40,0.158,0.162,131.74,131.74,0.00,90.00,N
+,GA1F:GA1F_WALL_5_1_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,GA1F:GA1F,GA1F:GA1F,0.40,0.158,0.162,67.83,67.83,180.00,90.00,S
+,GA1F:GA1F_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,GA1F:GA1F,GA1F:GA1F,0.30,4.364,14.895,960.15,960.15,0.00,180.00,
+,STAIRS2:STAIRS2_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,STAIRS2:STAIRS2,STAIRS2:STAIRS2,0.40,0.158,0.162,20.07,20.07,90.00,90.00,E
+,STAIRS2:STAIRS2_WALL_3_0_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,STAIRS2:STAIRS2,STAIRS2:STAIRS2,0.40,0.158,0.162,47.93,47.93,0.00,90.00,N
+,STAIRS2:STAIRS2_WALL_4_0_0,CEA_DENVER EXTERNAL WALL - GROWINGAREA,STAIRS2:STAIRS2,STAIRS2:STAIRS2,0.40,0.158,0.162,20.07,20.07,270.00,90.00,W
+,STAIRS2:STAIRS2_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,STAIRS2:STAIRS2,STAIRS2:STAIRS2,0.30,4.364,14.895,7.99,7.99,0.00,180.00,
+,STAIRS2:STAIRS2_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,STAIRS2:STAIRS2,STAIRS2:STAIRS2,0.40,0.107,0.108,7.99,7.99,180.00,0.00,
+,MECHSHAFT:MECHSHAFT_WALL_3_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,0.30,4.201,11.319,85.28,85.28,0.00,90.00,N
+,MECHSHAFT:MECHSHAFT_WALL_4_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,0.30,4.201,11.319,260.87,260.87,270.00,90.00,W
+,MECHSHAFT:MECHSHAFT_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - ELEVATOR,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,0.30,4.201,11.319,56.86,56.86,180.00,90.00,S
+,MECHSHAFT:MECHSHAFT_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,0.30,4.364,14.895,184.78,184.78,0.00,180.00,
+,MECHSHAFT:MECHSHAFT_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,0.40,0.107,0.108,184.78,184.78,180.00,0.00,
+,GERMINATION:GERMINATION_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,GERMINATION:GERMINATION,GERMINATION:GERMINATION,0.30,4.364,14.895,18.82,18.82,0.00,180.00,
+,GERMINATION:GERMINATION_GROUNDFLOOR_0_0_1,CEA_DENVER FLOOR - GROWINGAREA,GERMINATION:GERMINATION,GERMINATION:GERMINATION,0.30,4.364,14.895,34.02,34.02,0.00,180.00,
+,GERMINATION:GERMINATION_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,GERMINATION:GERMINATION,GERMINATION:GERMINATION,0.40,0.107,0.108,8.36,8.36,180.00,0.00,
+,GERMINATION:GERMINATION_ROOF_1_0_1,CEA_DENVER ROOF - GROWINGAREA,GERMINATION:GERMINATION,GERMINATION:GERMINATION,0.40,0.107,0.108,44.48,44.48,180.00,0.00,
+,NGA:LUNCH_WALL_4_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:LUNCH,NGA:LUNCH,0.40,0.157,0.160,16.72,13.01,270.00,90.00,W
+,NGA:LUNCH_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:LUNCH,NGA:LUNCH,0.40,0.157,0.160,15.39,11.67,180.00,90.00,S
+,NGA:LUNCH_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:LUNCH,NGA:LUNCH,0.30,4.364,14.895,19.24,19.24,0.00,180.00,
+,NGA:LUNCH_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:LUNCH,NGA:LUNCH,0.40,0.107,0.108,19.24,19.24,180.00,0.00,
+,NGA:MENS_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:MENS,NGA:MENS,0.40,0.157,0.160,15.39,15.39,180.00,90.00,S
+,NGA:MENS_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:MENS,NGA:MENS,0.30,4.364,14.895,19.24,19.24,0.00,180.00,
+,NGA:MENS_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:MENS,NGA:MENS,0.40,0.107,0.108,19.24,19.24,180.00,0.00,
+,NGA:WOMENS_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:WOMENS,NGA:WOMENS,0.40,0.157,0.160,15.39,15.39,180.00,90.00,S
+,NGA:WOMENS_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:WOMENS,NGA:WOMENS,0.30,4.364,14.895,19.24,19.24,0.00,180.00,
+,NGA:WOMENS_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:WOMENS,NGA:WOMENS,0.40,0.107,0.108,19.24,19.24,180.00,0.00,
+,NGA:STORAGE_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:STORAGE,NGA:STORAGE,0.40,0.157,0.160,15.39,15.39,180.00,90.00,S
+,NGA:STORAGE_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:STORAGE,NGA:STORAGE,0.30,4.364,14.895,19.24,19.24,0.00,180.00,
+,NGA:STORAGE_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:STORAGE,NGA:STORAGE,0.40,0.107,0.108,19.24,19.24,180.00,0.00,
+,NGA:OFFICE_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:OFFICE,NGA:OFFICE,0.40,0.157,0.160,15.39,11.67,180.00,90.00,S
+,NGA:OFFICE_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:OFFICE,NGA:OFFICE,0.30,4.364,14.895,19.24,19.24,0.00,180.00,
+,NGA:OFFICE_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:OFFICE,NGA:OFFICE,0.40,0.107,0.108,19.24,19.24,180.00,0.00,
+,NGA:SERVICE_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:SERVICE,NGA:SERVICE,0.40,0.157,0.160,16.72,13.01,90.00,90.00,E
+,NGA:SERVICE_WALL_5_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:SERVICE,NGA:SERVICE,0.40,0.157,0.160,15.39,11.67,180.00,90.00,S
+,NGA:SERVICE_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:SERVICE,NGA:SERVICE,0.30,4.364,14.895,19.24,19.24,0.00,180.00,
+,NGA:SERVICE_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:SERVICE,NGA:SERVICE,0.40,0.107,0.108,19.24,19.24,180.00,0.00,
+,NGA:TRANSPLANT_WALL_6_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:TRANSPLANT,NGA:TRANSPLANT,0.40,0.157,0.160,28.99,21.55,270.00,90.00,W
+,NGA:TRANSPLANT_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:TRANSPLANT,NGA:TRANSPLANT,0.30,4.364,14.895,8.36,8.36,0.00,180.00,
+,NGA:TRANSPLANT_GROUNDFLOOR_0_0_1,CEA_DENVER FLOOR - GROWINGAREA,NGA:TRANSPLANT,NGA:TRANSPLANT,0.30,4.364,14.895,44.48,44.48,0.00,180.00,
+,NGA:TRANSPLANT_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:TRANSPLANT,NGA:TRANSPLANT,0.40,0.107,0.108,18.82,18.82,180.00,0.00,
+,NGA:TRANSPLANT_ROOF_1_0_1,CEA_DENVER ROOF - GROWINGAREA,NGA:TRANSPLANT,NGA:TRANSPLANT,0.40,0.107,0.108,34.02,34.02,180.00,0.00,
+,NGA:CAS_WALL_7_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:CAS,NGA:CAS,0.40,0.157,0.160,11.15,11.15,270.00,90.00,W
+,NGA:CAS_WALL_14_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:CAS,NGA:CAS,0.40,0.157,0.160,46.08,46.08,90.00,90.00,E
+,NGA:CAS_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:CAS,NGA:CAS,0.30,4.364,14.895,17.11,17.11,0.00,180.00,
+,NGA:CAS_GROUNDFLOOR_0_0_1,CEA_DENVER FLOOR - GROWINGAREA,NGA:CAS,NGA:CAS,0.30,4.364,14.895,11.15,11.15,0.00,180.00,
+,NGA:CAS_GROUNDFLOOR_0_0_2,CEA_DENVER FLOOR - GROWINGAREA,NGA:CAS,NGA:CAS,0.30,4.364,14.895,12.26,12.26,0.00,180.00,
+,NGA:CAS_GROUNDFLOOR_0_0_3,CEA_DENVER FLOOR - GROWINGAREA,NGA:CAS,NGA:CAS,0.30,4.364,14.895,28.26,28.26,0.00,180.00,
+,NGA:CAS_GROUNDFLOOR_0_0_4,CEA_DENVER FLOOR - GROWINGAREA,NGA:CAS,NGA:CAS,0.30,4.364,14.895,130.55,130.55,0.00,180.00,
+,NGA:CAS_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:CAS,NGA:CAS,0.40,0.107,0.108,92.15,92.15,180.00,0.00,
+,NGA:CAS_ROOF_1_0_1,CEA_DENVER ROOF - GROWINGAREA,NGA:CAS,NGA:CAS,0.40,0.107,0.108,40.25,40.25,180.00,0.00,
+,NGA:CAS_ROOF_1_0_2,CEA_DENVER ROOF - GROWINGAREA,NGA:CAS,NGA:CAS,0.40,0.107,0.108,12.26,12.26,180.00,0.00,
+,NGA:CAS_ROOF_1_0_3,CEA_DENVER ROOF - GROWINGAREA,NGA:CAS,NGA:CAS,0.40,0.107,0.108,54.65,54.65,180.00,0.00,
+,NGA:CLEANING_WALL_2_0_0,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,NGA:CLEANING,NGA:CLEANING,0.40,0.157,0.160,13.38,13.38,90.00,90.00,E
+,NGA:CLEANING_GROUNDFLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,NGA:CLEANING,NGA:CLEANING,0.30,4.364,14.895,26.76,26.76,0.00,180.00,
+,NGA:CLEANING_ROOF_1_0_0,CEA_DENVER ROOF - GROWINGAREA,NGA:CLEANING,NGA:CLEANING,0.40,0.107,0.108,26.76,26.76,180.00,0.00,
+
+
+Opaque Interior
+
+,,Construction,Zone,Space,Adjacent Surface,Reflectance,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Net Area [m2],Azimuth [deg],Tilt [deg],Cardinal Direction
+,MECH:MECH_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,MECH:MECH,MECH:MECH,ELEVATOR:ELEVATOR_PARTITION_4_0_10000,0.50,2.511,6.302,10.40,10.40,90.00,90.00,E
+,MECH:MECH_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,MECH:MECH,MECH:MECH,MECHSHAFT:MECHSHAFT_PARTITION_5_0_10001,0.50,2.511,6.302,28.43,28.43,0.00,90.00,N
+,MECH:MECH_PARTITION_5_0_0,CEA_DENVER INTERNAL WALLS,MECH:MECH,MECH:MECH,GERMINATION:GERMINATION_PARTITION_3_0_10002,0.50,2.511,6.302,27.22,27.22,180.00,90.00,S
+,MECH:MECH_PARTITION_5_1_0,CEA_DENVER INTERNAL WALLS,MECH:MECH,MECH:MECH,NGA:TRANSPLANT_PARTITION_5_0_10003,0.50,2.511,6.302,27.22,27.22,180.00,90.00,S
+,MECH:MECH_PARTITION_6_0_0,CEA_DENVER INTERNAL WALLS,MECH:MECH,MECH:MECH,NGA:CAS_PARTITION_18_0_10004,0.50,2.511,6.302,8.92,8.92,90.00,90.00,E
+,MECH:MECH_PARTITION_7_0_0,CEA_DENVER INTERNAL WALLS,MECH:MECH,MECH:MECH,ELEVATOR:ELEVATOR_PARTITION_5_0_10005,0.50,2.511,6.302,26.01,26.01,0.00,90.00,N
+,ELEVATOR:ELEVATOR_PARTITION_4_0_10000,CEA_DENVER INTERNAL WALLS_REV,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,MECH:MECH_PARTITION_2_0_0,0.50,2.511,6.302,10.40,10.40,270.00,90.00,W
+,ELEVATOR:ELEVATOR_PARTITION_5_0_10005,CEA_DENVER INTERNAL WALLS_REV,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,MECH:MECH_PARTITION_7_0_0,0.50,2.511,6.302,26.01,26.01,180.00,90.00,S
+,ELEVATOR:ELEVATOR_PARTITION_2_2_0,CEA_DENVER INTERNAL WALLS,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,NGA:CAS_PARTITION_18_0_10006,0.50,2.511,6.302,10.40,10.40,90.00,90.00,E
+,ELEVATOR:ELEVATOR_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,GA3F:GA3F_PARTITION_5_0_10007,0.50,2.511,6.302,26.01,26.01,0.00,90.00,N
+,ELEVATOR:ELEVATOR_PARTITION_3_1_0,CEA_DENVER INTERNAL WALLS,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,GA2F:GA2F_PARTITION_5_0_10008,0.50,2.511,6.302,26.01,26.01,0.00,90.00,N
+,ELEVATOR:ELEVATOR_PARTITION_3_2_0,CEA_DENVER INTERNAL WALLS,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,GA1F:GA1F_PARTITION_5_0_10009,0.50,2.511,6.302,26.01,26.01,0.00,90.00,N
+,STAIRS1:STAIRS1_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,STAIRS1:STAIRS1,STAIRS1:STAIRS1,GA3F:GA3F_PARTITION_5_0_10010,0.50,2.511,6.302,15.98,15.98,0.00,90.00,N
+,STAIRS1:STAIRS1_PARTITION_3_1_0,CEA_DENVER INTERNAL WALLS,STAIRS1:STAIRS1,STAIRS1:STAIRS1,GA2F:GA2F_PARTITION_5_0_10011,0.50,2.511,6.302,15.98,15.98,0.00,90.00,N
+,STAIRS1:STAIRS1_PARTITION_3_2_0,CEA_DENVER INTERNAL WALLS,STAIRS1:STAIRS1,STAIRS1:STAIRS1,GA1F:GA1F_PARTITION_5_0_10012,0.50,2.511,6.302,15.98,15.98,0.00,90.00,N
+,GA3F:GA3F_PARTITION_5_0_10007,CEA_DENVER INTERNAL WALLS_REV,GA3F:GA3F,GA3F:GA3F,ELEVATOR:ELEVATOR_PARTITION_3_0_0,0.50,2.511,6.302,26.01,26.01,180.00,90.00,S
+,GA3F:GA3F_PARTITION_5_0_10010,CEA_DENVER INTERNAL WALLS_REV,GA3F:GA3F,GA3F:GA3F,STAIRS1:STAIRS1_PARTITION_3_0_0,0.50,2.511,6.302,15.98,15.98,180.00,90.00,S
+,GA3F:GA3F_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,GA3F:GA3F,GA3F:GA3F,STAIRS2:STAIRS2_PARTITION_5_0_10014,0.50,2.511,6.302,15.98,15.98,0.00,90.00,N
+,GA3F:GA3F_PARTITION_4_0_0,CEA_DENVER INTERNAL WALLS,GA3F:GA3F,GA3F:GA3F,MECHSHAFT:MECHSHAFT_PARTITION_2_0_10015,0.50,2.511,6.302,86.96,86.96,270.00,90.00,W
+,GA3F:GA3F_FLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,GA3F:GA3F,GA3F:GA3F,GA2F:GA2F_CEILING_1_0_10013,0.30,2.971,14.895,960.15,960.15,0.00,180.00,
+,GA2F:GA2F_PARTITION_5_0_10008,CEA_DENVER INTERNAL WALLS_REV,GA2F:GA2F,GA2F:GA2F,ELEVATOR:ELEVATOR_PARTITION_3_1_0,0.50,2.511,6.302,26.01,26.01,180.00,90.00,S
+,GA2F:GA2F_PARTITION_5_0_10011,CEA_DENVER INTERNAL WALLS_REV,GA2F:GA2F,GA2F:GA2F,STAIRS1:STAIRS1_PARTITION_3_1_0,0.50,2.511,6.302,15.98,15.98,180.00,90.00,S
+,GA2F:GA2F_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,GA2F:GA2F,GA2F:GA2F,STAIRS2:STAIRS2_PARTITION_5_0_10017,0.50,2.511,6.302,15.98,15.98,0.00,90.00,N
+,GA2F:GA2F_PARTITION_4_0_0,CEA_DENVER INTERNAL WALLS,GA2F:GA2F,GA2F:GA2F,MECHSHAFT:MECHSHAFT_PARTITION_2_0_10018,0.50,2.511,6.302,86.96,86.96,270.00,90.00,W
+,GA2F:GA2F_FLOOR_0_0_0,CEA_DENVER FLOOR - GROWINGAREA,GA2F:GA2F,GA2F:GA2F,GA1F:GA1F_CEILING_1_0_10016,0.30,2.971,14.895,960.15,960.15,0.00,180.00,
+,GA2F:GA2F_CEILING_1_0_10013,CEA_DENVER FLOOR - GROWINGAREA_REV,GA2F:GA2F,GA2F:GA2F,GA3F:GA3F_FLOOR_0_0_0,0.30,2.971,14.895,960.15,960.15,180.00,0.00,
+,GA1F:GA1F_PARTITION_5_0_10009,CEA_DENVER INTERNAL WALLS_REV,GA1F:GA1F,GA1F:GA1F,ELEVATOR:ELEVATOR_PARTITION_3_2_0,0.50,2.511,6.302,26.01,26.01,180.00,90.00,S
+,GA1F:GA1F_PARTITION_5_0_10012,CEA_DENVER INTERNAL WALLS_REV,GA1F:GA1F,GA1F:GA1F,STAIRS1:STAIRS1_PARTITION_3_2_0,0.50,2.511,6.302,15.98,15.98,180.00,90.00,S
+,GA1F:GA1F_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,GA1F:GA1F,GA1F:GA1F,STAIRS2:STAIRS2_PARTITION_5_0_10019,0.50,2.511,6.302,15.98,15.98,0.00,90.00,N
+,GA1F:GA1F_PARTITION_4_0_0,CEA_DENVER INTERNAL WALLS,GA1F:GA1F,GA1F:GA1F,MECHSHAFT:MECHSHAFT_PARTITION_2_0_10020,0.50,2.511,6.302,86.96,86.96,270.00,90.00,W
+,GA1F:GA1F_PARTITION_5_3_0,CEA_DENVER INTERNAL WALLS,GA1F:GA1F,GA1F:GA1F,NGA:CAS_PARTITION_17_0_10021,0.50,2.511,6.302,11.15,11.15,180.00,90.00,S
+,GA1F:GA1F_PARTITION_5_4_0,CEA_DENVER INTERNAL WALLS,GA1F:GA1F,GA1F:GA1F,NGA:CLEANING_PARTITION_3_0_10022,0.50,2.511,6.302,26.76,26.76,180.00,90.00,S
+,GA1F:GA1F_CEILING_1_0_10016,CEA_DENVER FLOOR - GROWINGAREA_REV,GA1F:GA1F,GA1F:GA1F,GA2F:GA2F_FLOOR_0_0_0,0.30,2.971,14.895,960.15,960.15,180.00,0.00,
+,STAIRS2:STAIRS2_PARTITION_5_0_10014,CEA_DENVER INTERNAL WALLS_REV,STAIRS2:STAIRS2,STAIRS2:STAIRS2,GA3F:GA3F_PARTITION_3_0_0,0.50,2.511,6.302,15.98,15.98,180.00,90.00,S
+,STAIRS2:STAIRS2_PARTITION_5_0_10017,CEA_DENVER INTERNAL WALLS_REV,STAIRS2:STAIRS2,STAIRS2:STAIRS2,GA2F:GA2F_PARTITION_3_0_0,0.50,2.511,6.302,15.98,15.98,180.00,90.00,S
+,STAIRS2:STAIRS2_PARTITION_5_0_10019,CEA_DENVER INTERNAL WALLS_REV,STAIRS2:STAIRS2,STAIRS2:STAIRS2,GA1F:GA1F_PARTITION_3_0_0,0.50,2.511,6.302,15.98,15.98,180.00,90.00,S
+,MECHSHAFT:MECHSHAFT_PARTITION_5_0_10001,CEA_DENVER INTERNAL WALLS_REV,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,MECH:MECH_PARTITION_3_0_0,0.50,2.511,6.302,28.43,28.43,180.00,90.00,S
+,MECHSHAFT:MECHSHAFT_PARTITION_2_0_10015,CEA_DENVER INTERNAL WALLS_REV,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,GA3F:GA3F_PARTITION_4_0_0,0.50,2.511,6.302,86.96,86.96,90.00,90.00,E
+,MECHSHAFT:MECHSHAFT_PARTITION_2_0_10018,CEA_DENVER INTERNAL WALLS_REV,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,GA2F:GA2F_PARTITION_4_0_0,0.50,2.511,6.302,86.96,86.96,90.00,90.00,E
+,MECHSHAFT:MECHSHAFT_PARTITION_2_0_10020,CEA_DENVER INTERNAL WALLS_REV,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,GA1F:GA1F_PARTITION_4_0_0,0.50,2.511,6.302,86.96,86.96,90.00,90.00,E
+,GERMINATION:GERMINATION_PARTITION_3_0_10002,CEA_DENVER INTERNAL WALLS_REV,GERMINATION:GERMINATION,GERMINATION:GERMINATION,MECH:MECH_PARTITION_5_0_0,0.50,2.511,6.302,27.22,27.22,0.00,90.00,N
+,GERMINATION:GERMINATION_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,GERMINATION:GERMINATION,GERMINATION:GERMINATION,NGA:CAS_PARTITION_18_0_10023,0.50,2.511,6.302,28.99,28.99,90.00,90.00,E
+,GERMINATION:GERMINATION_PARTITION_4_0_0,CEA_DENVER INTERNAL WALLS,GERMINATION:GERMINATION,GERMINATION:GERMINATION,NGA:TRANSPLANT_PARTITION_4_0_10024,0.50,2.511,6.302,16.72,16.72,270.00,90.00,W
+,GERMINATION:GERMINATION_PARTITION_5_0_0,CEA_DENVER INTERNAL WALLS,GERMINATION:GERMINATION,GERMINATION:GERMINATION,NGA:CAS_PARTITION_3_0_10025,0.50,2.511,6.302,6.69,6.69,180.00,90.00,S
+,GERMINATION:GERMINATION_PARTITION_6_0_0,CEA_DENVER INTERNAL WALLS,GERMINATION:GERMINATION,GERMINATION:GERMINATION,NGA:CAS_PARTITION_2_0_10026,0.50,2.511,6.302,12.26,12.26,270.00,90.00,W
+,GERMINATION:GERMINATION_PARTITION_7_0_0,CEA_DENVER INTERNAL WALLS,GERMINATION:GERMINATION,GERMINATION:GERMINATION,NGA:CAS_PARTITION_19_0_10027,0.50,2.511,6.302,20.53,20.53,180.00,90.00,S
+,NGA:LUNCH_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,NGA:LUNCH,NGA:LUNCH,NGA:MENS_PARTITION_4_0_10028,0.50,2.511,6.302,16.72,16.72,90.00,90.00,E
+,NGA:LUNCH_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,NGA:LUNCH,NGA:LUNCH,NGA:CAS_PARTITION_8_0_10029,0.50,2.511,6.302,15.39,15.39,0.00,90.00,N
+,NGA:MENS_PARTITION_4_0_10028,CEA_DENVER INTERNAL WALLS_REV,NGA:MENS,NGA:MENS,NGA:LUNCH_PARTITION_2_0_0,0.50,2.511,6.302,16.72,16.72,270.00,90.00,W
+,NGA:MENS_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,NGA:MENS,NGA:MENS,NGA:WOMENS_PARTITION_4_0_10030,0.50,2.511,6.302,16.72,16.72,90.00,90.00,E
+,NGA:MENS_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,NGA:MENS,NGA:MENS,NGA:CAS_PARTITION_9_0_10031,0.50,2.511,6.302,15.39,15.39,0.00,90.00,N
+,NGA:WOMENS_PARTITION_4_0_10030,CEA_DENVER INTERNAL WALLS_REV,NGA:WOMENS,NGA:WOMENS,NGA:MENS_PARTITION_2_0_0,0.50,2.511,6.302,16.72,16.72,270.00,90.00,W
+,NGA:WOMENS_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,NGA:WOMENS,NGA:WOMENS,NGA:STORAGE_PARTITION_4_0_10032,0.50,2.511,6.302,16.72,16.72,90.00,90.00,E
+,NGA:WOMENS_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,NGA:WOMENS,NGA:WOMENS,NGA:CAS_PARTITION_10_0_10033,0.50,2.511,6.302,15.39,15.39,0.00,90.00,N
+,NGA:STORAGE_PARTITION_4_0_10032,CEA_DENVER INTERNAL WALLS_REV,NGA:STORAGE,NGA:STORAGE,NGA:WOMENS_PARTITION_2_0_0,0.50,2.511,6.302,16.72,16.72,270.00,90.00,W
+,NGA:STORAGE_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,NGA:STORAGE,NGA:STORAGE,NGA:OFFICE_PARTITION_4_0_10034,0.50,2.511,6.302,16.72,16.72,90.00,90.00,E
+,NGA:STORAGE_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,NGA:STORAGE,NGA:STORAGE,NGA:CAS_PARTITION_11_0_10035,0.50,2.511,6.302,15.39,15.39,0.00,90.00,N
+,NGA:OFFICE_PARTITION_4_0_10034,CEA_DENVER INTERNAL WALLS_REV,NGA:OFFICE,NGA:OFFICE,NGA:STORAGE_PARTITION_2_0_0,0.50,2.511,6.302,16.72,16.72,270.00,90.00,W
+,NGA:OFFICE_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,NGA:OFFICE,NGA:OFFICE,NGA:SERVICE_PARTITION_4_0_10036,0.50,2.511,6.302,16.72,16.72,90.00,90.00,E
+,NGA:OFFICE_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,NGA:OFFICE,NGA:OFFICE,NGA:CAS_PARTITION_12_0_10037,0.50,2.511,6.302,15.39,15.39,0.00,90.00,N
+,NGA:SERVICE_PARTITION_4_0_10036,CEA_DENVER INTERNAL WALLS_REV,NGA:SERVICE,NGA:SERVICE,NGA:OFFICE_PARTITION_2_0_0,0.50,2.511,6.302,16.72,16.72,270.00,90.00,W
+,NGA:SERVICE_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,NGA:SERVICE,NGA:SERVICE,NGA:CAS_PARTITION_13_0_10038,0.50,2.511,6.302,15.39,15.39,0.00,90.00,N
+,NGA:TRANSPLANT_PARTITION_5_0_10003,CEA_DENVER INTERNAL WALLS_REV,NGA:TRANSPLANT,NGA:TRANSPLANT,MECH:MECH_PARTITION_5_1_0,0.50,2.511,6.302,27.22,27.22,0.00,90.00,N
+,NGA:TRANSPLANT_PARTITION_4_0_10024,CEA_DENVER INTERNAL WALLS_REV,NGA:TRANSPLANT,NGA:TRANSPLANT,GERMINATION:GERMINATION_PARTITION_4_0_0,0.50,2.511,6.302,16.72,16.72,90.00,90.00,E
+,NGA:TRANSPLANT_PARTITION_2_0_0,CEA_DENVER INTERNAL WALLS,NGA:TRANSPLANT,NGA:TRANSPLANT,NGA:CAS_PARTITION_5_0_10039,0.50,2.511,6.302,12.26,12.26,90.00,90.00,E
+,NGA:TRANSPLANT_PARTITION_3_0_0,CEA_DENVER INTERNAL WALLS,NGA:TRANSPLANT,NGA:TRANSPLANT,NGA:CAS_PARTITION_4_0_10040,0.50,2.511,6.302,6.69,6.69,180.00,90.00,S
+,NGA:TRANSPLANT_PARTITION_7_0_0,CEA_DENVER INTERNAL WALLS,NGA:TRANSPLANT,NGA:TRANSPLANT,NGA:CAS_PARTITION_6_0_10041,0.50,2.511,6.302,20.53,20.53,180.00,90.00,S
+,NGA:CAS_PARTITION_18_0_10004,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,MECH:MECH_PARTITION_6_0_0,0.50,2.511,6.302,8.92,8.92,270.00,90.00,W
+,NGA:CAS_PARTITION_18_0_10006,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,ELEVATOR:ELEVATOR_PARTITION_2_2_0,0.50,2.511,6.302,10.40,10.40,270.00,90.00,W
+,NGA:CAS_PARTITION_17_0_10021,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,GA1F:GA1F_PARTITION_5_3_0,0.50,2.511,6.302,11.15,11.15,0.00,90.00,N
+,NGA:CAS_PARTITION_18_0_10023,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,GERMINATION:GERMINATION_PARTITION_2_0_0,0.50,2.511,6.302,28.99,28.99,270.00,90.00,W
+,NGA:CAS_PARTITION_3_0_10025,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,GERMINATION:GERMINATION_PARTITION_5_0_0,0.50,2.511,6.302,6.69,6.69,0.00,90.00,N
+,NGA:CAS_PARTITION_2_0_10026,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,GERMINATION:GERMINATION_PARTITION_6_0_0,0.50,2.511,6.302,12.26,12.26,90.00,90.00,E
+,NGA:CAS_PARTITION_19_0_10027,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,GERMINATION:GERMINATION_PARTITION_7_0_0,0.50,2.511,6.302,20.53,20.53,0.00,90.00,N
+,NGA:CAS_PARTITION_8_0_10029,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:LUNCH_PARTITION_3_0_0,0.50,2.511,6.302,15.39,15.39,180.00,90.00,S
+,NGA:CAS_PARTITION_9_0_10031,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:MENS_PARTITION_3_0_0,0.50,2.511,6.302,15.39,15.39,180.00,90.00,S
+,NGA:CAS_PARTITION_10_0_10033,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:WOMENS_PARTITION_3_0_0,0.50,2.511,6.302,15.39,15.39,180.00,90.00,S
+,NGA:CAS_PARTITION_11_0_10035,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:STORAGE_PARTITION_3_0_0,0.50,2.511,6.302,15.39,15.39,180.00,90.00,S
+,NGA:CAS_PARTITION_12_0_10037,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:OFFICE_PARTITION_3_0_0,0.50,2.511,6.302,15.39,15.39,180.00,90.00,S
+,NGA:CAS_PARTITION_13_0_10038,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:SERVICE_PARTITION_3_0_0,0.50,2.511,6.302,15.39,15.39,180.00,90.00,S
+,NGA:CAS_PARTITION_5_0_10039,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:TRANSPLANT_PARTITION_2_0_0,0.50,2.511,6.302,12.26,12.26,270.00,90.00,W
+,NGA:CAS_PARTITION_4_0_10040,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:TRANSPLANT_PARTITION_3_0_0,0.50,2.511,6.302,6.69,6.69,0.00,90.00,N
+,NGA:CAS_PARTITION_6_0_10041,CEA_DENVER INTERNAL WALLS_REV,NGA:CAS,NGA:CAS,NGA:TRANSPLANT_PARTITION_7_0_0,0.50,2.511,6.302,20.53,20.53,0.00,90.00,N
+,NGA:CAS_PARTITION_15_0_0,CEA_DENVER INTERNAL WALLS,NGA:CAS,NGA:CAS,NGA:CLEANING_PARTITION_5_0_10042,0.50,2.511,6.302,26.76,26.76,0.00,90.00,N
+,NGA:CAS_PARTITION_16_0_0,CEA_DENVER INTERNAL WALLS,NGA:CAS,NGA:CAS,NGA:CLEANING_PARTITION_4_0_10043,0.50,2.511,6.302,13.38,13.38,90.00,90.00,E
+,NGA:CLEANING_PARTITION_3_0_10022,CEA_DENVER INTERNAL WALLS_REV,NGA:CLEANING,NGA:CLEANING,GA1F:GA1F_PARTITION_5_4_0,0.50,2.511,6.302,26.76,26.76,0.00,90.00,N
+,NGA:CLEANING_PARTITION_5_0_10042,CEA_DENVER INTERNAL WALLS_REV,NGA:CLEANING,NGA:CLEANING,NGA:CAS_PARTITION_15_0_0,0.50,2.511,6.302,26.76,26.76,180.00,90.00,S
+,NGA:CLEANING_PARTITION_4_0_10043,CEA_DENVER INTERNAL WALLS_REV,NGA:CLEANING,NGA:CLEANING,NGA:CAS_PARTITION_16_0_0,0.50,2.511,6.302,13.38,13.38,270.00,90.00,W
+
+
+Exterior Fenestration
+
+,,Construction,Zone,Space,Frame and Divider,Glass Area [m2],Frame Area [m2],Divider Area [m2],Area of One Opening [m2],Area of Multiplied Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Frame Conductance [W/m2-K],Divider Conductance [W/m2-K],NFRC Product Type,Assembly U-Factor [W/m2-K],Assembly SHGC,Assembly Visible Transmittance,Shade Control,Parent Surface,Azimuth [deg],Tilt [deg],Cardinal Direction
+,NGA:LUNCH_WALL_4_0_0_0_0_1_WIN,CEA_DENVER GLAZING - 1001,NGA:LUNCH,NGA:LUNCH,1,1.59,0.21,0.05,1.86,3.72,0.908,0.170,0.153,1.306,1.306,CurtainWall,0.920,0.156,0.138,No,NGA:LUNCH_WALL_4_0_0,270.00,90.00,W
+,NGA:LUNCH_WALL_5_0_0_0_0_1_WIN,CEA_DENVER GLAZING - 1001,NGA:LUNCH,NGA:LUNCH,1,1.59,0.21,0.05,1.86,3.72,0.908,0.170,0.153,1.306,1.306,CurtainWall,0.920,0.156,0.138,No,NGA:LUNCH_WALL_5_0_0,180.00,90.00,S
+,NGA:OFFICE_WALL_5_0_0_0_0_1_WIN,CEA_DENVER GLAZING - 1001,NGA:OFFICE,NGA:OFFICE,1,1.59,0.21,0.05,1.86,3.72,0.908,0.170,0.153,1.306,1.306,CurtainWall,0.920,0.156,0.138,No,NGA:OFFICE_WALL_5_0_0,180.00,90.00,S
+,NGA:SERVICE_WALL_2_0_0_0_0_1_WIN,CEA_DENVER GLAZING - 1001,NGA:SERVICE,NGA:SERVICE,1,1.59,0.21,0.05,1.86,3.72,0.908,0.170,0.153,1.306,1.306,CurtainWall,0.920,0.156,0.138,No,NGA:SERVICE_WALL_2_0_0,90.00,90.00,E
+,NGA:SERVICE_WALL_5_0_0_0_0_1_WIN,CEA_DENVER GLAZING - 1001,NGA:SERVICE,NGA:SERVICE,1,1.59,0.21,0.05,1.86,3.72,0.908,0.170,0.153,1.306,1.306,CurtainWall,0.920,0.156,0.138,No,NGA:SERVICE_WALL_5_0_0,180.00,90.00,S
+,NGA:TRANSPLANT_WALL_6_0_0_0_0_3_WIN,CEA_DENVER GLAZING - 1001,NGA:TRANSPLANT,NGA:TRANSPLANT,1,1.59,0.21,0.05,1.86,7.43,0.908,0.170,0.153,1.306,1.306,CurtainWall,0.920,0.156,0.138,No,NGA:TRANSPLANT_WALL_6_0_0,270.00,90.00,W
+,Total or Average,,,,,,,,,26.01,0.908,0.170,0.153,,,,,,,,,,,
+,North Total or Average,,,,,,,,,0.00,-,-,-,,,,,,,,,,,
+,Non-North Total or Average,,,,,,,,,26.01,0.908,0.170,0.153,,,,,,,,,,,
+
+
+Exterior Fenestration Shaded State
+
+,,Frame and Divider,Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,NFRC Product Type,Assembly U-Factor [W/m2-K],Assembly SHGC,Assembly Visible Transmittance
+,None,,,,,,,,
+
+
+Interior Fenestration
+
+,,Construction,Zone,Space,Area of One Opening [m2],Area of Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Parent Surface
+,Total or Average,,,,,0.00,-,-,-,
+
+
+Exterior Door
+
+,,Construction,Zone,Space,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Parent Surface
+,None,,,,,,,
+
+
+Interior Door
+
+,,Construction,Zone,Space,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Parent Surface
+,None,,,,,,,
+
+
+Opaque Construction Layers
+
+,,Layer 1,Layer 2,Layer 3,Layer 4,Layer 5,Layer 6,Layer 7,Layer 8,Layer 9,Layer 10
+,CEA_DENVER FLOOR - GROWINGAREA,6 in. Concrete at R-0.0625/in (NW 145 lb/ft3 solid concrete)_.1524,,,,,,,,,
+,CEA_DENVER FLOOR - GROWINGAREA_REV,6 in. Concrete at R-0.0625/in (NW 145 lb/ft3 solid concrete)_.1524,,,,,,,,,
+,CEA_DENVER ROOF - GROWINGAREA,3_RVAL_1,,,,,,,,,
+,CEA_DENVER INTERNAL WALLS,CEA_Gypsum_.0127,CEA_Gypsum_.0127,,,,,,,,
+,CEA_DENVER INTERNAL WALLS_REV,CEA_Gypsum_.0127,CEA_Gypsum_.0127,,,,,,,,
+,CEA_DENVER EXTERNAL WALL - ELEVATOR,8 in. Concrete at R-0.0625/in (NW 145 lb/ft3 solid concrete)_.2032,,,,,,,,,
+,CEA_DENVER EXTERNAL WALL - GROWINGAREA,9_RVAL_1,,,,,,,,,
+,CEA_DENVER EXTERNAL WALL - NONGROWINGAREA,11_RVAL_1,CEA_Gypsum_.0127,,,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Lighting Summary
+FOR:,Entire Facility
+Interior Lighting
+
+,,Zone Name,Space Name,Space Type,Lighting Power Density [W/m2],Space Area [m2],Total Power [W],End Use Subcategory,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Return Air Fraction,Conditioned (Y/N),Consumption [GJ]
+,MECH:MECH GENERAL LIGHTING,MECH:MECH,MECH:MECH,GENERAL,15.0000,56.88,853.23,ELECTRIC EQUIPMENT#MECH:MECH#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,N,9.94
+,ELEVATOR:ELEVATOR GENERAL LIGHTING,ELEVATOR:ELEVATOR,ELEVATOR:ELEVATOR,GENERAL,15.0000,18.18,272.69,ELECTRIC EQUIPMENT#ELEVATOR:ELEVATOR#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,N,3.18
+,STAIRS1:STAIRS1 GENERAL LIGHTING,STAIRS1:STAIRS1,STAIRS1:STAIRS1,GENERAL,15.0000,6.39,95.84,ELECTRIC EQUIPMENT#STAIRS1:STAIRS1#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,N,1.12
+,GA3F:GA3F GENERAL LIGHTING,GA3F:GA3F,GA3F:GA3F,GENERAL,15.0000,950.66,14259.86,ELECTRIC EQUIPMENT#GA3F:GA3F#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,166.08
+,GA2F:GA2F GENERAL LIGHTING,GA2F:GA2F,GA2F:GA2F,GENERAL,15.0000,950.66,14259.86,ELECTRIC EQUIPMENT#GA2F:GA2F#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,166.08
+,GA1F:GA1F GENERAL LIGHTING,GA1F:GA1F,GA1F:GA1F,GENERAL,15.0000,951.58,14273.64,ELECTRIC EQUIPMENT#GA1F:GA1F#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,166.24
+,STAIRS2:STAIRS2 GENERAL LIGHTING,STAIRS2:STAIRS2,STAIRS2:STAIRS2,GENERAL,15.0000,7.14,107.10,ELECTRIC EQUIPMENT#STAIRS2:STAIRS2#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,N,1.25
+,MECHSHAFT:MECHSHAFT GENERAL LIGHTING,MECHSHAFT:MECHSHAFT,MECHSHAFT:MECHSHAFT,GENERAL,15.0000,177.06,2655.90,ELECTRIC EQUIPMENT#MECHSHAFT:MECHSHAFT#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,N,30.93
+,GERMINATION:GERMINATION GENERAL LIGHTING,GERMINATION:GERMINATION,GERMINATION:GERMINATION,GENERAL,15.0000,52.45,786.79,ELECTRIC EQUIPMENT#GERMINATION:GERMINATION#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,9.16
+,NGA:LUNCH GENERAL LIGHTING,NGA:LUNCH,NGA:LUNCH,GENERAL,15.0000,18.14,272.08,ELECTRIC EQUIPMENT#NGA:LUNCH#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,3.17
+,NGA:MENS GENERAL LIGHTING,NGA:MENS,NGA:MENS,GENERAL,15.0000,18.59,278.86,ELECTRIC EQUIPMENT#NGA:MENS#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,3.25
+,NGA:WOMENS GENERAL LIGHTING,NGA:WOMENS,NGA:WOMENS,GENERAL,15.0000,18.59,278.86,ELECTRIC EQUIPMENT#NGA:WOMENS#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,3.25
+,NGA:STORAGE GENERAL LIGHTING,NGA:STORAGE,NGA:STORAGE,GENERAL,15.0000,18.59,278.86,ELECTRIC EQUIPMENT#NGA:STORAGE#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,3.25
+,NGA:OFFICE GENERAL LIGHTING,NGA:OFFICE,NGA:OFFICE,GENERAL,15.0000,18.59,278.86,ELECTRIC EQUIPMENT#NGA:OFFICE#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,3.25
+,NGA:SERVICE GENERAL LIGHTING,NGA:SERVICE,NGA:SERVICE,GENERAL,15.0000,18.14,272.08,ELECTRIC EQUIPMENT#NGA:SERVICE#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,3.17
+,NGA:TRANSPLANT GENERAL LIGHTING,NGA:TRANSPLANT,NGA:TRANSPLANT,GENERAL,15.0000,51.65,774.75,ELECTRIC EQUIPMENT#NGA:TRANSPLANT#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,9.02
+,NGA:CAS GENERAL LIGHTING,NGA:CAS,NGA:CAS,GENERAL,15.0000,196.60,2949.03,ELECTRIC EQUIPMENT#NGA:CAS#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,34.35
+,NGA:CLEANING GENERAL LIGHTING,NGA:CLEANING,NGA:CLEANING,GENERAL,15.0000,26.11,391.64,ELECTRIC EQUIPMENT#NGA:CLEANING#GeneralLights,BLDG_LIGHT_SCH,62.05,167.98,62.05,0.0000,Y,4.56
+,Interior Lighting Total,,,,15.0000,3555.99,53339.92,,,,,,,,621.24
+
+
+Daylighting
+
+,,Zone,Control Name,Daylighting Method,Control Type,Fraction Controlled,Lighting Installed in Zone [W],Lighting Controlled [W]
+,None,,,,,,,
+
+
+Exterior Lighting
+
+,,Total Watts,Astronomical Clock/Schedule,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Consumption [GJ]
+,Exterior Lighting Total,0.00,,,,,,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Equipment Summary
+FOR:,Entire Facility
+Central Plant
+
+,,Type,Reference Capacity [W],Reference Efficiency [W/W],Rated Capacity [W],Rated Efficiency [W/W],IPLV in SI Units [W/W],IPLV in IP Units [Btu/W-h]
+,CEA_DENVER BOILER,Boiler:HotWater,205811.17,0.80,,,,
+,CEA_DENVER CHILLER,Chiller:Electric:EIR,1527541.56,3.20,1523915.49,3.20,3.04,10.29
+,MAIN TOWER,CoolingTower:SingleSpeed,1610570.97,,,,,
+
+
+Cooling Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Sensible Capacity [W],Nominal Latent Capacity [W],Nominal Sensible Heat Ratio,Nominal Efficiency [W/W],Nominal Coil UA Value [W/C],Nominal Coil Surface Area [m2]
+,GERMINATION:GERMINATION PTHP COOLING COIL,Coil:Cooling:DX:SingleSpeed,,5431.07,4348.41,1082.65,0.80,3.00,,
+,NGA VAV COOLING COIL,Coil:Cooling:Water,20269.34,26924.55,15547.48,11377.07,0.58,-,4851.79,49.21
+,GA1F VAV COOLING COIL,Coil:Cooling:Water,387358.95,732359.99,513514.43,218845.56,0.70,-,95858.00,972.25
+,GA2F VAV COOLING COIL,Coil:Cooling:Water,525453.45,991815.43,697508.19,294307.25,0.70,-,128468.04,1302.99
+,GA3F VAV COOLING COIL,Coil:Cooling:Water,594459.81,1123177.82,788583.09,334594.73,0.70,-,146349.27,1484.36
+Nominal values are gross at rated conditions, i.e., the supply air fan heat and electric power NOT accounted for.
+
+
+DX Cooling Coil Standard Ratings 2017
+
+,,Cooling Coil Type [1],Standard Rating Net Cooling Capacity [W][2],Standard Rating Net COP [W/W][2],EER [Btu/W-h][2],SEER User [Btu/W-h][2,3],SEER Standard [Btu/W-h][2,3],IEER [Btu/W-h][2]
+,GERMINATION:GERMINATION PTHP COOLING COIL,Coil:Cooling:DX:SingleSpeed,5176.5,2.51,8.56,9.08,8.59,8.7
+<p>ANSI/AHRI ratings account for supply air fan heat and electric power.</p>
+<ol>
+  <li>EnergyPlus object type.</li>
+  <li>Capacity less than 65K Btu/h (19050 W) - calculated as per AHRI Standard 210/240-2017.<br>
+      Capacity of 65K Btu/h (19050 W) to less than 135K Btu/h (39565 W) - calculated as per AHRI Standard 340/360-2007.<br>
+      Capacity from 135K (39565 W) to 250K Btu/hr (73268 W) - calculated as per AHRI Standard 365-2009 - Ratings not yet supported in EnergyPlus.
+  </li>
+  <li>SEER (User) is calculated using user-input PLF curve and cooling coefficient of degradation.<br>
+      SEER (Standard) is calculated using the default PLF curve and cooling coefficient of degradation from the appropriate AHRI standard.
+  </li>
+</ol>
+
+
+DX Cooling Coil Standard Ratings 2023
+
+,,Cooling Coil Type [1],Standard Rating Net Cooling Capacity [W][2],Standard Rating Net COP2 [W/W][2,4],EER2 [Btu/W-h][2,4],SEER2 User [Btu/W-h][2,3],SEER2 Standard [Btu/W-h][2,3],IEER [Btu/W-h][2]
+,GERMINATION:GERMINATION PTHP COOLING COIL,Coil:Cooling:DX:SingleSpeed,5123.6,2.42,8.26,8.75,8.52,8.3
+<p>ANSI/AHRI ratings account for supply air fan heat and electric power.</p>
+<ol>
+  <li>EnergyPlus object type.</li>
+  <li>
+    Capacity less than 65K Btu/h (19050 W) - calculated as per AHRI Standard 210/240-2023.<br>
+    Capacity of 65K Btu/h (19050 W) to less than 135K Btu/h (39565 W) - calculated as per AHRI Standard 340/360-2022.<br>
+    Capacity from 135K (39565 W) to 250K Btu/hr (73268 W) - calculated as per AHRI Standard 365-2009 - Ratings not yet supported in EnergyPlus.
+  </li>
+  <li>
+    SEER2 (User) is calculated using user-input PLF curve and cooling coefficient of degradation.<br>
+    SEER2 (Standard) is calculated using the default PLF curve and cooling coefficient of degradation from the appropriate AHRI standard.
+  </li>
+  <li>Value for the Full Speed of the coil.</li>
+</ol>
+
+
+DX Cooling Coil ASHRAE 127 Standard Ratings Report
+
+,,DX Cooling Coil Type,Rated Net Cooling Capacity Test A [W],Rated Electric Power Test A [W],Rated Net Cooling Capacity Test B [W],Rated Electric Power Test B [W],Rated Net Cooling Capacity Test C [W],Rated Electric Power Test C [W],Rated Net Cooling Capacity Test D [W],Rated Electric Power Test D [W]
+,None,,,,,,,,,
+
+
+Water-to-Air Heat Pumps at Rated Temperatures Report
+
+,,Coil Type,Rated Total Capacity [W],Rated Sensible Capacity [W],Rated Power[W],Rated COP [W/W],Rated Air Dry-bulb Temperature [C],Rated Air Wet-bulb Temperature [C],Rated Water Temperature [C],Design Day used for Sizing
+,None,,,,,,,,,
+
+
+DX Heating Coils
+
+,,DX Heating Coil Type,High Temperature Heating (net) Rating Capacity [W],Low Temperature Heating (net) Rating Capacity [W],HSPF [Btu/W-h],Region Number,Minimum Outdoor Dry-Bulb Temperature for Compressor Operation [C],Supplemental Heat High Shutoff Temperature [C],Airloop Name
+,GERMINATION:GERMINATION PTHP HEATING COIL,Coil:Heating:DX:SingleSpeed,5691.4,3169.8,6.10,4,-8.00,21.00,N/A
+ANSI/AHRI ratings account for supply air fan heat and electric power.
+
+
+DX Heating Coils AHRI 2023
+
+,,DX Heating Coil Type,High Temperature Heating (net) Rating Capacity [W],Low Temperature Heating (net) Rating Capacity [W],HSPF2 [Btu/W-h],Region Number,Minimum Outdoor Dry-Bulb Temperature for Compressor Operation [C],Airloop Name
+,GERMINATION:GERMINATION PTHP HEATING COIL,Coil:Heating:DX:SingleSpeed,5744.2,3222.6,5.68,4,-8.00,N/A
+ANSI/AHRI 2023 (HSPF2) ratings account for supply air fan heat and electric power.
+
+
+Heating Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Efficiency [W/W],Used as Supplementary Heat,Airloop Name,Plantloop Name
+,GERMINATION:GERMINATION PTHP HEATING COIL,Coil:Heating:DX:SingleSpeed,,5431.07,2.75,No,N/A,N/A
+,GERMINATION:GERMINATION PTHP SUPP HEATING COIL,Coil:Heating:Electric,,1384.05,1.00,Yes,N/A,N/A
+,NGA:LUNCH REHEAT COIL,Coil:Heating:Water,1607.17,1702.75,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:MENS REHEAT COIL,Coil:Heating:Water,1044.08,1106.17,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:WOMENS REHEAT COIL,Coil:Heating:Water,1027.72,1088.83,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:STORAGE REHEAT COIL,Coil:Heating:Water,1032.59,1094.00,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:OFFICE REHEAT COIL,Coil:Heating:Water,1122.60,1189.36,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:SERVICE REHEAT COIL,Coil:Heating:Water,1612.25,1708.12,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:TRANSPLANT REHEAT COIL,Coil:Heating:Water,3063.73,3245.93,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:CAS REHEAT COIL,Coil:Heating:Water,8078.00,8558.39,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA:CLEANING REHEAT COIL,Coil:Heating:Water,1004.82,1064.57,-,No,N/A,HOT WATER LOOP HOT WATER LOOP
+,NGA VAV HEATING COIL,Coil:Heating:Water,17142.30,11352.03,-,No,NGA VAV,HOT WATER LOOP HOT WATER LOOP
+,GA1F VAV HEATING COIL,Coil:Heating:Water,43345.98,44482.38,-,No,GA1F VAV,HOT WATER LOOP HOT WATER LOOP
+,GA2F VAV HEATING COIL,Coil:Heating:Water,59172.92,60729.37,-,No,GA2F VAV,HOT WATER LOOP HOT WATER LOOP
+,GA3F VAV HEATING COIL,Coil:Heating:Water,66557.02,68309.43,-,No,GA3F VAV,HOT WATER LOOP HOT WATER LOOP
+Nominal values are gross at rated conditions, i.e., the supply air fan heat and electric power NOT accounted for.
+
+
+Fans
+
+,,Type,Total Efficiency [W/W],Delta Pressure [pa],Max Air Flow Rate [m3/s],Rated Electricity Rate [W],Rated Power Per Max Air Flow Rate [W-s/m3],Motor Heat In Air Fraction,Fan Energy Index,End Use Subcategory,Design Day Name for Fan Sizing Peak,Date/Time for Fan Sizing Peak,Purpose,Is Autosized,Motor Efficiency,Motor Heat to Zone Fraction,Motor Loss Zone Name,Airloop Name
+,GERMINATION:GERMINATION PTHP SUPPLY FAN,Fan:OnOff,0.70,75.00,0.33,35.15,107.14,1.00,5.46,General,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 18:00:00,N/A,Yes,0.90,0.00,N/A,N/A
+,NGA VAV SUPPLY FAN,Fan:VariableVolume,0.70,1000.00,0.92,1320.89,1428.57,1.00,1.58,General,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,N/A,Yes,0.90,0.00,N/A,NGA VAV
+,GA1F VAV SUPPLY FAN,Fan:VariableVolume,0.70,1000.00,43.29,61842.91,1428.57,1.00,1.26,General,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,N/A,Yes,0.90,0.00,N/A,GA1F VAV
+,GA2F VAV SUPPLY FAN,Fan:VariableVolume,0.70,1000.00,59.25,84648.85,1428.57,1.00,1.25,General,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,N/A,Yes,0.90,0.00,N/A,GA2F VAV
+,GA3F VAV SUPPLY FAN,Fan:VariableVolume,0.70,1000.00,66.70,95288.75,1428.57,1.00,1.25,General,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,N/A,Yes,0.90,0.00,N/A,GA3F VAV
+
+
+Pumps
+
+,,Type,Control,Head [pa],Water Flow [m3/s],Electricity Rate [W],Power Per Water Flow Rate [W-s/m3],Motor Efficiency [W/W],End Use Subcategory,Is Autosized,Plantloop Name,Plantloop Branch Name
+,HOT WATER LOOP HW SUPPLY PUMP,Pump:ConstantSpeed,Intermittent,179352.00,0.004547,1161.74,255487.18,0.90,General,Yes,HOT WATER LOOP HOT WATER LOOP,HOT WATER LOOP HW SUPPLY INLET BRANCH
+,CHILLED WATER LOOP CHW SUPPLY PUMP,Pump:ConstantSpeed,Intermittent,179352.00,0.054560,13939.44,255487.18,0.90,General,Yes,CHILLED WATER LOOP CHILLED WATER LOOP,CHILLED WATER LOOP CHW SUPPLY INLET BRANCH
+,CHILLED WATER LOOP CNDW SUPPLY PUMP,Pump:VariableSpeed,Intermittent,179352.00,0.086017,21976.14,255487.18,0.90,General,Yes,CHILLED WATER LOOP CONDENSER WATER LOOP,CHILLED WATER LOOP CNDW SUPPLY INLET BRANCH
+
+
+Service Water Heating
+
+,,Type,Storage Volume [m3],Input [W],Thermal Efficiency [W/W],Recovery Efficiency [W/W],Energy Factor
+,None,,,,,,
+
+
+Chillers
+
+,,Type,Reference Capacity[W],TypeReference Efficiency [W/W],Rated Capacity [W],Rated Efficiency [W/W],IPLV in SI Units [W/W],IPLV in IP Units [Btu/W-h],Minimum Part Load Ratio,Fuel Type,Rated Entering Condenser Temperature [C],Rated Leaving Evaporator Temperature [C],Reference Entering Condenser Temperature [C],Reference Leaving Evaporator Temperature [C],Design Size Reference Chilled Water Flow Rate [kg/s],Design Size Reference Condenser Fluid Flow Rate [kg/s],Plantloop Name,Plantloop Branch Name,Condenser Loop Name,Condenser Loop Branch Name,Heat Recovery Plantloop Name,Heat Recovery Plantloop Branch Name,Recovery Relative Capacity Fraction
+,CEA_DENVER CHILLER,Chiller:Electric:EIR,1527541.56,3.20,1527541.56,3.20,3.04,3.02,0.00,Electricity,29.40,6.67,29.40,6.67,-99988800.10,-99575804.23,CHILLED WATER LOOP CHILLED WATER LOOP,CEA_DENVER CHILLER CHW BRANCH,CHILLED WATER LOOP CONDENSER WATER LOOP,CEA_DENVER CHILLER CNDW BRANCH,N/A,N/A,0.00
+
+
+Boilers
+
+,,Type,Reference Capacity [W],Reference Efficiency[W/W],Rated Capacity [W],Rated Efficiency [W/W],Minimum Part Load Ratio,Fuel Type,Parasitic Electric Load [W],Plantloop Name,Plantloop Branch Name
+,CEA_DENVER BOILER,Boiler:HotWater,205811.17,0.80,205811.17,0.80,0.00,Electricity,0.00,HOT WATER LOOP HOT WATER LOOP,CEA_DENVER BOILER HW BRANCH
+
+
+Cooling Towers and Fluid Coolers
+
+,,Type,Fluid Type,Range [C],Approach [C],Design Fan Power [W],Design Inlet Air Wet-Bulb Temperature [C],Design Water Flow Rate [m3/s],Leaving Water Setpoint Temperature [C],Condenser Loop Name,Condenser Loop Branch Name
+,MAIN TOWER,CoolingTower:SingleSpeed,WATER,5.50,3.90,21138.74,25.60,0.086017,29.50,CHILLED WATER LOOP CONDENSER WATER LOOP,MAIN TOWER CNDW BRANCH
+
+
+PlantLoop or CondenserLoop
+
+,,Type,Provides Heating,Provides Cooling,Maximum Loop Flow Rate [m3/s],Minimum Loop Flow Rate [m3/s]
+,HOT WATER LOOP HOT WATER LOOP,PlantLoop,Yes,Yes,0.00,0.00
+,CHILLED WATER LOOP CHILLED WATER LOOP,PlantLoop,Yes,Yes,0.05,0.00
+,CHILLED WATER LOOP CONDENSER WATER LOOP,CondenserLoop,Yes,Yes,0.09,0.00
+
+
+Air Terminals
+
+,,Zone Name,Minimum Flow [m3/s],Minimum Outdoor Flow [m3/s],Supply Cooling Setpoint [C],Supply Heating Setpoint [C],Heating Capacity [W],Cooling Capacity [W],Type of Input Object,Heat/Reheat Coil Object Type,Chilled Water Coil Object Type,Fan Object Type,Fan Name,Primary Air Flow Rate [m3/s],Secondary Air Flow Rate [m3/s],Minimum Flow Schedule Name,Maximum Flow During Reheat [m3/s],Minimum Outdoor Flow Schedule Name
+,GA1F:GA1F ATU,GA1F:GA1F,0.73,0.01,14.00,50.00,0.00,261197.82,AirTerminal:SingleDuct:VAV:NoReheat,,n/a,n/a,,43.29,n/a,n/a,0.00,n/a
+,GA2F:GA2F ATU,GA2F:GA2F,0.72,0.01,14.00,50.00,0.00,357536.66,AirTerminal:SingleDuct:VAV:NoReheat,,n/a,n/a,,59.25,n/a,n/a,0.00,n/a
+,GA3F:GA3F ATU,GA3F:GA3F,0.72,0.01,14.00,50.00,0.00,402423.20,AirTerminal:SingleDuct:VAV:NoReheat,,n/a,n/a,,66.70,n/a,n/a,0.00,n/a
+,NGA:LUNCH ATU,NGA:LUNCH,0.01,0.03,14.00,50.00,1607.80,617.60,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.06,n/a,n/a,0.00,n/a
+,NGA:MENS ATU,NGA:MENS,0.01,0.03,14.00,50.00,1044.37,394.73,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.04,n/a,n/a,0.00,n/a
+,NGA:WOMENS ATU,NGA:WOMENS,0.01,0.03,14.00,50.00,1028.00,373.02,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.04,n/a,n/a,0.00,n/a
+,NGA:STORAGE ATU,NGA:STORAGE,0.01,0.03,14.00,50.00,1032.88,381.96,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.04,n/a,n/a,0.00,n/a
+,NGA:OFFICE ATU,NGA:OFFICE,0.01,0.03,14.00,50.00,1122.91,475.98,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.05,n/a,n/a,0.00,n/a
+,NGA:SERVICE ATU,NGA:SERVICE,0.01,0.03,14.00,50.00,1612.88,556.81,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.06,n/a,n/a,0.00,n/a
+,NGA:TRANSPLANT ATU,NGA:TRANSPLANT,0.04,0.07,14.00,50.00,3064.69,1329.85,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.13,n/a,n/a,0.00,n/a
+,NGA:CAS ATU,NGA:CAS,0.15,0.27,14.00,50.00,8080.06,4133.46,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.41,n/a,n/a,0.00,n/a
+,NGA:CLEANING ATU,NGA:CLEANING,0.02,0.04,14.00,50.00,1005.23,1034.35,AirTerminal:SingleDuct:VAV:Reheat,COIL:HEATING:WATER,n/a,n/a,,0.10,n/a,n/a,0.00,n/a
+
+
+Air Heat Recovery
+
+,,Name,Input object type,Plate/Rotary,Sensible Effectiveness at 100% Heating Air Flow,Sensible Effectiveness at 100% Cooling Air Flow,Latent Effectiveness at 100% Heating Air Flow,Latent Effectiveness at 100% Cooling Air Flow,Exhaust Airflow [kg/s],Outdoor Airflow [kg/s]
+,None,,,,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,HVAC Sizing Summary
+FOR:,Entire Facility
+Space Sensible Cooling
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,None,,,,,,,,,,,,,,
+The Design Load is the space sensible load only. It does not include any system effects or ventilation loads.
+
+
+Zone Sensible Cooling
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,GA3F:GA3F,268282.13,402423.20,423.31,44.468,66.702,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,20.00,20.00,0.00810,26.39,0.01245,0.012,0.00
+,GA2F:GA2F,238357.78,357536.66,376.09,39.503,59.254,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,20.00,20.00,0.00808,26.39,0.01245,0.012,0.00
+,GA1F:GA1F,174131.88,261197.82,274.49,28.860,43.290,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,20.00,20.00,0.00811,26.39,0.01245,0.012,0.00
+,GERMINATION:GERMINATION,1320.12,1980.17,37.75,0.219,0.328,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 18:00:00,20.00,20.00,0.00830,23.65,0.01244,0.001,0.00
+,NGA:LUNCH,411.73,617.60,34.05,0.041,0.061,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 18:00:00,24.00,24.00,0.01000,23.65,0.01244,0.025,0.00
+,NGA:MENS,263.15,394.73,21.23,0.026,0.039,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 17:00:00,24.00,24.00,0.01039,25.17,0.01245,0.026,0.00
+,NGA:WOMENS,248.68,373.02,20.06,0.025,0.037,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 17:00:00,24.00,24.00,0.01052,25.17,0.01245,0.026,0.00
+,NGA:STORAGE,254.64,381.96,20.55,0.025,0.038,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 17:00:00,24.00,24.00,0.01049,25.17,0.01245,0.026,0.00
+,NGA:OFFICE,317.32,475.98,25.60,0.032,0.047,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,24.00,23.99,0.01004,26.39,0.01245,0.026,0.00
+,NGA:SERVICE,371.20,556.81,30.70,0.037,0.055,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,24.00,23.99,0.01010,26.39,0.01245,0.025,0.00
+,NGA:TRANSPLANT,886.57,1329.85,25.75,0.088,0.132,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 18:00:00,24.00,24.00,0.00992,23.65,0.01244,0.072,0.00
+,NGA:CAS,2755.64,4133.46,21.02,0.274,0.411,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 17:00:00,24.00,23.99,0.01022,25.17,0.01245,0.273,0.00
+,NGA:CLEANING,689.57,1034.35,39.62,0.069,0.103,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 17:00:00,24.00,23.99,0.00939,25.17,0.01245,0.036,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+Space Sensible Heating
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,None,,,,,,,,,,,,,,
+The Design Load is the space sensible load only. It does not include any system effects or ventilation loads.
+
+
+Zone Sensible Heating
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,GA3F:GA3F,0.00,0.00,0.00,0.000,0.012,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 19:00:00,18.00,20.00,0.00796,-17.40,0.00099,0.012,0.00
+,GA2F:GA2F,0.00,0.00,0.00,0.000,0.012,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 17:00:00,18.00,20.00,0.00806,-17.40,0.00099,0.012,0.00
+,GA1F:GA1F,0.00,0.00,0.00,0.000,0.012,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,18.00,19.97,0.00995,-17.40,0.00099,0.012,0.00
+,GERMINATION:GERMINATION,910.76,1366.14,26.05,0.028,0.042,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,18.00,17.99,0.00525,-17.40,0.00099,0.001,0.00
+,NGA:LUNCH,1071.87,1607.80,88.64,0.035,0.053,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,20.00,19.99,0.00566,-17.40,0.00099,0.025,0.00
+,NGA:MENS,696.24,1044.37,56.18,0.023,0.035,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,20.00,19.99,0.00561,-17.40,0.00099,0.026,0.00
+,NGA:WOMENS,685.33,1028.00,55.30,0.023,0.034,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,20.00,19.99,0.00558,-17.40,0.00099,0.026,0.00
+,NGA:STORAGE,688.58,1032.88,55.56,0.023,0.034,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,20.00,19.99,0.00559,-17.40,0.00099,0.026,0.00
+,NGA:OFFICE,748.61,1122.91,60.40,0.025,0.037,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,20.00,19.99,0.00572,-17.40,0.00099,0.026,0.00
+,NGA:SERVICE,1075.26,1612.88,88.92,0.036,0.053,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,20.00,19.99,0.00567,-17.40,0.00099,0.025,0.00
+,NGA:TRANSPLANT,2043.13,3064.69,59.34,0.068,0.102,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 04:00:00,20.00,19.99,0.00593,-17.40,0.00099,0.072,0.00
+,NGA:CAS,5386.71,8080.06,41.10,0.178,0.273,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 02:00:00,20.00,19.99,0.00567,-17.40,0.00099,0.273,0.00
+,NGA:CLEANING,670.15,1005.23,38.50,0.022,0.036,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,20.00,19.99,0.00535,-17.40,0.00099,0.036,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+System Design Air Flow Rates
+
+,,Calculated cooling [m3/s],User cooling [m3/s],Calculated heating [m3/s],User heating [m3/s],Adjusted cooling [m3/s],Adjusted heating [m3/s],Adjusted main [m3/s],Calculated Heating Air Flow Ratio [],User Heating Air Flow Ratio []
+,NGA VAV,0.92,0.92,0.66,0.66,0.9246,0.9246,0.9246,1.0000,0.5000
+,GA1F VAV,43.29,43.29,0.01,0.01,43.2900,12.9870,43.2900,0.3000,0.5000
+,GA2F VAV,59.25,59.25,0.01,0.01,59.2542,17.7763,59.2542,0.3000,0.5000
+,GA3F VAV,66.70,66.70,0.01,0.01,66.7021,20.0106,66.7021,0.3000,0.5000
+
+
+Plant Loop Coincident Design Fluid Flow Rate Adjustments
+
+,,Previous Design Volume Flow Rate [m3/s],Algorithm Volume Flow Rate [m3/s],Coincident Design Volume Flow Rate [m3/s],Coincident Size Adjusted,Peak Sizing Period Name,Peak Day into Period {TIMESTAMP}[day],Peak Hour Of Day {TIMESTAMP}[hr],Peak Step Start Minute {TIMESTAMP}[min]
+,None,,,,,,,,
+
+
+Coil Sizing Summary
+
+,,Coil Type,HVAC Type,HVAC Name,Coil Final Gross Total Capacity [W],Coil Final Gross Sensible Capacity [W],Coil Final Reference Air Volume Flow Rate [m3/s],Coil Final Reference Plant Fluid Volume Flow Rate [m3/s],Coil U-value Times Area Value [W/K],Design Day Name at Sensible Ideal Loads Peak,Date/Time at Sensible Ideal Loads Peak,Design Day Name at Air Flow Ideal Loads Peak,Date/Time at Air Flow Ideal Loads Peak,Coil Total Capacity at Ideal Loads Peak [W],Coil Sensible Capacity at Ideal Loads Peak [W],Coil Air Volume Flow Rate at Ideal Loads Peak [m3/s],Coil Entering Air Drybulb at Ideal Loads Peak [C],Coil Entering Air Wetbulb at Ideal Loads Peak [C],Coil Entering Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Coil Leaving Air Drybulb at Ideal Loads Peak [C],Coil Leaving Air Wetbulb at Ideal Loads Peak [C],Coil Leaving Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Outdoor Air Drybulb at Ideal Loads Peak [C],Outdoor Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Outdoor Air Wetbulb at Ideal Loads Peak [C],Outdoor Air Flow Percentage at Ideal Loads Peak [%],Zone Air Drybulb at Ideal Loads Peak [C],Zone Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Zone Air Relative Humidity at Ideal Loads Peak [%],Zone Sensible Heat Gain at Ideal Loads Peak [W],Zone Latent Heat Gain at Ideal Loads Peak [W],Coil Total Capacity at Rating Conditions [W],Coil Sensible Capacity at Rating Conditions [W]
+,GERMINATION:GERMINATION PTHP HEATING COIL,COIL:HEATING:DX:SINGLESPEED,ZONEHVAC:PACKAGEDTERMINALHEATPUMP,GERMINATION:GERMINATION PTHP,5431.067,5431.067,0.328091,-999.0,-999.000,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,5431.07,5431.07,0.328091,17.57,8.99,0.00520149,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.1543,17.99,0.00525234,33.6852,1366.14,0.00,5438.20,5438.20
+,GERMINATION:GERMINATION PTHP COOLING COIL,Coil:Cooling:DX:SingleSpeed,ZONEHVAC:PACKAGEDTERMINALHEATPUMP,GERMINATION:GERMINATION PTHP,5431.067,4348.413,0.328091,-999.0,-999.000,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 18:00:00,unknown,7/21 18:00:00,4973.67,4680.98,0.328091,20.00,12.81,0.00830805,13.89,10.25,0.00800000,23.65,0.01244313,17.26,0.1543,20.00,0.00830166,46.7514,1980.17,0.00,5022.73,4307.73
+,GERMINATION:GERMINATION PTHP SUPP HEATING COIL,COIL:HEATING:ELECTRIC,ZONEHVAC:PACKAGEDTERMINALHEATPUMP,GERMINATION:GERMINATION PTHP,1384.048,1384.048,-999.0,-999.0,-999.000,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,1384.05,1384.05,0.042423,17.57,8.99,0.00520149,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,1.1937,17.99,0.00525234,33.6852,1366.14,0.00,-999.00,-999.00
+,NGA:LUNCH REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:LUNCH ATU,1607.169,1607.169,0.053241,0.00003551,40.945,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,1607.17,1607.17,0.053241,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00566461,32.0567,1607.80,0.00,1703.46,1703.46
+,NGA:MENS REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:MENS ATU,1044.081,1044.081,0.034589,0.00002307,26.599,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,1044.08,1044.08,0.034589,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00560601,31.7209,1044.37,0.00,1106.64,1106.64
+,NGA:WOMENS REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:WOMENS ATU,1027.716,1027.716,0.034047,0.00002271,26.182,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,1027.72,1027.72,0.034047,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00558106,31.5809,1028.00,0.00,1089.29,1089.29
+,NGA:STORAGE REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:STORAGE ATU,1032.594,1032.594,0.034208,0.00002281,26.307,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,1032.59,1032.59,0.034208,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00558855,31.6229,1032.88,0.00,1094.46,1094.46
+,NGA:OFFICE REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:OFFICE ATU,1122.602,1122.602,0.037190,0.00002480,28.600,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,1122.60,1122.60,0.037190,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00571896,32.3544,1122.91,0.00,1189.86,1189.86
+,NGA:SERVICE REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:SERVICE ATU,1612.246,1612.246,0.053410,0.00003562,41.075,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,1612.25,1612.25,0.053410,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00566951,32.0842,1612.88,0.00,1708.84,1708.84
+,NGA:TRANSPLANT REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:TRANSPLANT ATU,3063.730,3063.730,0.101502,0.00006769,78.051,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 04:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 04:00:00,3063.73,3063.73,0.101502,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00593441,33.5639,3064.69,0.00,3247.29,3247.29
+,NGA:CAS REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:CAS ATU,8077.997,8077.997,0.267614,0.00017847,205.797,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 02:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 02:00:00,8078.00,8078.00,0.267614,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00567462,32.1045,8080.06,0.00,8561.98,8561.98
+,NGA:CLEANING REHEAT COIL,COIL:HEATING:WATER,ZONEHVAC:AIRDISTRIBUTIONUNIT,NGA:CLEANING ATU,1004.818,1004.818,0.033293,0.00002220,25.597,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,1004.82,1004.82,0.033293,20.00,12.54,0.00800000,50.00,21.52,0.00800000,-17.40,0.00099203,-17.40,0.0000,19.99,0.00535227,30.3050,1005.23,0.00,1065.02,1065.02
+,NGA VAV COOLING COIL,Coil:Cooling:Water,AirLoopHVAC,NGA VAV,20269.341,-999.000,0.924624,0.00072397,-999.000,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 17:00:00,20269.34,13864.30,0.924624,24.57,16.81,0.01144721,10.17,9.26,0.00849211,24.99,0.01244548,17.66,57.7737,23.99,0.01002482,44.1234,6035.14,0.00,22625.71,13722.29
+,NGA VAV HEATING COIL,Coil:Heating:Water,AirLoopHVAC,NGA VAV,17142.297,17142.297,0.462312,0.00037874,235.659,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 17:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 03:00:00,17142.30,17142.30,0.462312,-17.40,-17.40,0.00099203,20.00,12.54,0.00800000,-17.40,0.00099203,-17.40,115.5475,19.98,0.00562428,31.8389,12391.78,0.00,11326.12,11326.12
+,GA1F VAV COOLING COIL,Coil:Cooling:Water,AirLoopHVAC,GA1F VAV,387358.955,-999.000,43.290034,0.01383556,-999.000,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,387358.95,378851.05,43.290034,20.00,12.63,0.00811059,11.38,9.25,0.00800000,26.39,0.01244795,18.07,0.0281,20.00,0.00810937,45.6881,174131.88,0.00,418147.11,377745.38
+,GA1F VAV HEATING COIL,Coil:Heating:Water,AirLoopHVAC,GA1F VAV,43345.978,43345.978,21.645017,0.00095768,761.502,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,43345.98,43345.98,21.645017,17.98,11.80,0.00799606,20.00,12.54,0.00800000,-17.40,0.00099203,-17.40,0.0562,19.97,0.00995286,55.9890,0.00,0.00,44483.92,44483.92
+,GA2F VAV COOLING COIL,Coil:Cooling:Water,AirLoopHVAC,GA2F VAV,525453.454,-999.000,59.254197,0.01876798,-999.000,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,525453.45,517197.16,59.254197,20.00,12.61,0.00807861,11.38,9.25,0.00800000,26.39,0.01244795,18.07,0.0205,20.00,0.00807771,45.5112,238357.78,0.00,565487.27,513639.55
+,GA2F VAV HEATING COIL,Coil:Heating:Water,AirLoopHVAC,GA2F VAV,59172.920,59172.920,29.627098,0.00130735,1039.578,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,59172.92,59172.92,29.627098,17.99,11.80,0.00799713,20.00,12.54,0.00800000,-17.40,0.00099203,-17.40,0.0410,20.00,0.00826075,46.5280,0.00,0.00,60731.48,60731.48
+,GA3F VAV COOLING COIL,Coil:Cooling:Water,AirLoopHVAC,GA3F VAV,594459.810,-999.000,66.702125,0.02123273,-999.000,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,DENVER INTL AP ANN CLG .4% CONDNS WB=>MDB,7/21 16:00:00,594459.81,583006.85,66.702125,20.00,12.62,0.00809673,11.38,9.25,0.00800000,26.39,0.01244795,18.07,0.0182,20.00,0.00809594,45.6148,268282.13,0.00,640854.93,580308.43
+,GA3F VAV HEATING COIL,Coil:Heating:Water,AirLoopHVAC,GA3F VAV,66557.022,66557.022,33.351063,0.00147050,1169.314,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,DENVER INTL AP ANN HTG 99.6% CONDNS DB,12/21 01:00:00,66557.02,66557.02,33.351063,17.99,11.80,0.00799745,20.00,12.54,0.00800000,-17.40,0.00099203,-17.40,0.0364,20.00,0.00789713,44.4987,0.00,0.00,68311.80,68311.80
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,System Summary
+FOR:,Entire Facility
+Economizer
+
+,,High Limit Shutoff Control,Minimum Outdoor Air [m3/s],Maximum Outdoor Air [m3/s],Return Air Temp Limit,Return Air Enthalpy Limit,Outdoor Air Temperature Limit [C],Outdoor Air Enthalpy Limit [C]
+,NGA VAV OA CONTROLLER,DifferentialDryBulb,0.53,0.92,-,,,
+,GA1F VAV OA CONTROLLER,DifferentialDryBulb,0.01,43.29,-,,,
+,GA2F VAV OA CONTROLLER,DifferentialDryBulb,0.01,59.25,-,,,
+,GA3F VAV OA CONTROLLER,DifferentialDryBulb,0.01,66.70,-,,,
+
+
+Demand Controlled Ventilation using Controller:MechanicalVentilation
+
+,,Controller:MechanicalVentilation Name,Outdoor Air Per Person [m3/s-person],Outdoor Air Per Area [m3/s-m2],Outdoor Air Per Zone [m3/s],Outdoor Air ACH [ach],Outdoor Air Method,Outdoor Air Schedule Name,Air Distribution Effectiveness in Cooling Mode,Air Distribution Effectiveness in Heating Mode,Air Distribution Effectiveness Schedule Name,Type
+,None,,,,,,,,,,,
+
+
+Time Not Comfortable Based on Simple ASHRAE 55-2004
+
+,,Winter Clothes [hr],Summer Clothes [hr],Summer or Winter Clothes [hr]
+,GA3F:GA3F,3980.00,4887.00,3796.00
+,GA2F:GA2F,4016.00,3079.00,2049.00
+,GA1F:GA1F,2167.00,2955.00,1133.00
+,GERMINATION:GERMINATION,5253.00,5270.00,5253.00
+,NGA:LUNCH,3436.00,5270.00,3436.00
+,NGA:MENS,3349.00,5270.00,3349.00
+,NGA:WOMENS,3344.00,5270.00,3344.00
+,NGA:STORAGE,3317.00,5270.00,3317.00
+,NGA:OFFICE,3134.00,5270.00,3134.00
+,NGA:SERVICE,3336.00,5270.00,3336.00
+,NGA:TRANSPLANT,3542.00,5270.00,3542.00
+,NGA:CAS,3075.00,5270.00,3075.00
+,NGA:CLEANING,1687.00,5161.00,1687.00
+,MECH:MECH,4417.00,5270.00,4417.00
+,ELEVATOR:ELEVATOR,4498.00,5270.00,4498.00
+,STAIRS1:STAIRS1,4962.00,5270.00,4962.00
+,STAIRS2:STAIRS2,3832.00,3840.00,2787.00
+,MECHSHAFT:MECHSHAFT,4550.00,5270.00,4550.00
+,Facility,5270.00,5270.00,5270.00
+Aggregated over the RunPeriods for Weather
+
+
+Time Setpoint Not Met
+
+,,During Heating [hr],During Cooling [hr],During Occupied Heating [hr],During Occupied Cooling [hr]
+,GA3F:GA3F,7.00,0.00,4.00,0.00
+,GA2F:GA2F,0.00,0.00,0.00,0.00
+,GA1F:GA1F,643.00,0.00,366.00,0.00
+,GERMINATION:GERMINATION,0.00,0.00,0.00,0.00
+,NGA:LUNCH,0.00,0.00,0.00,0.00
+,NGA:MENS,0.00,0.00,0.00,0.00
+,NGA:WOMENS,0.00,0.00,0.00,0.00
+,NGA:STORAGE,0.00,0.00,0.00,0.00
+,NGA:OFFICE,0.00,0.00,0.00,0.00
+,NGA:SERVICE,0.00,0.00,0.00,0.00
+,NGA:TRANSPLANT,0.00,0.00,0.00,0.00
+,NGA:CAS,0.00,0.00,0.00,0.00
+,NGA:CLEANING,0.00,0.00,0.00,0.00
+,MECH:MECH,0.00,0.00,0.00,0.00
+,ELEVATOR:ELEVATOR,0.00,0.00,0.00,0.00
+,STAIRS1:STAIRS1,0.00,0.00,0.00,0.00
+,STAIRS2:STAIRS2,0.00,0.00,0.00,0.00
+,MECHSHAFT:MECHSHAFT,0.00,0.00,0.00,0.00
+,Facility,643.00,0.00,366.00,0.00
+Aggregated over the RunPeriods for Weather
+
+
+Thermostat Schedules
+
+,,Thermostat Name 1,Control Type Schedule,Control Type,Control Type Name,Heating Schedule,Cooling Schedule
+,GA3F:GA3F,GA3F:GA3F THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,GA THERMOSTAT DUAL SP CONTROL,GA HTG,GA CLG
+,GA2F:GA2F,GA2F:GA2F THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,GA THERMOSTAT DUAL SP CONTROL,GA HTG,GA CLG
+,GA1F:GA1F,GA1F:GA1F THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,GA THERMOSTAT DUAL SP CONTROL,GA HTG,GA CLG
+,GERMINATION:GERMINATION,GERMINATION:GERMINATION THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,GA THERMOSTAT DUAL SP CONTROL,GA HTG,GA CLG
+,NGA:LUNCH,NGA:LUNCH THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:MENS,NGA:MENS THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:WOMENS,NGA:WOMENS THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:STORAGE,NGA:STORAGE THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:OFFICE,NGA:OFFICE THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:SERVICE,NGA:SERVICE THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:TRANSPLANT,NGA:TRANSPLANT THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:CAS,NGA:CAS THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+,NGA:CLEANING,NGA:CLEANING THERMOSTAT,HVACTEMPLATE-ALWAYS 4,DualSetPointWithDeadBand,NGA THERMOSTAT DUAL SP CONTROL,NGA HTG,NGA CLG
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Outdoor Air Summary
+FOR:,Entire Facility
+Average Outdoor Air During Occupied Hours
+
+,,Average Number of Occupants,Nominal Number of Occupants,Zone Volume [m3],Mechanical Ventilation [ach],Infiltration [ach],AFN Infiltration [ach],Simple Ventilation [ach]
+,GA3F:GA3F,0.53,0.97,3332.24,13.450,0.428,0.000,0.000
+,GA2F:GA2F,0.53,0.97,3332.24,12.281,0.108,0.000,0.000
+,GA1F:GA1F,0.53,0.97,3480.48,8.323,0.091,0.000,0.000
+,GERMINATION:GERMINATION,0.03,0.05,191.85,0.000,0.306,0.000,0.000
+,NGA:LUNCH,1.10,2.01,66.35,1.021,0.866,0.000,0.000
+,NGA:MENS,1.13,2.06,68.00,0.630,0.570,0.000,0.000
+,NGA:WOMENS,1.13,2.06,68.00,0.595,0.570,0.000,0.000
+,NGA:STORAGE,1.13,2.06,68.00,0.609,0.570,0.000,0.000
+,NGA:OFFICE,1.13,2.06,68.00,0.762,0.570,0.000,0.000
+,NGA:SERVICE,1.10,2.01,66.35,0.920,0.866,0.000,0.000
+,NGA:TRANSPLANT,3.14,5.73,188.92,0.766,0.485,0.000,0.000
+,NGA:CAS,11.96,21.82,719.09,0.630,0.400,0.000,0.000
+,NGA:CLEANING,1.59,2.90,95.50,1.253,0.472,0.000,0.000
+Values shown for a single zone without multipliers
+
+
+Minimum Outdoor Air During Occupied Hours
+
+,,Average Number of Occupants,Nominal Number of Occupants,Zone Volume [m3],Mechanical Ventilation [ach],Infiltration [ach],AFN Infiltration [ach],Simple Ventilation [ach]
+,GA3F:GA3F,0.53,0.97,3332.24,0.013,0.037,0.000,0.000
+,GA2F:GA2F,0.53,0.97,3332.24,0.013,0.009,0.000,0.000
+,GA1F:GA1F,0.53,0.97,3480.48,0.012,0.008,0.000,0.000
+,GERMINATION:GERMINATION,0.03,0.05,191.85,0.000,0.027,0.000,0.000
+,NGA:LUNCH,1.10,2.01,66.35,0.978,0.076,0.000,0.000
+,NGA:MENS,1.13,2.06,68.00,0.610,0.050,0.000,0.000
+,NGA:WOMENS,1.13,2.06,68.00,0.577,0.050,0.000,0.000
+,NGA:STORAGE,1.13,2.06,68.00,0.590,0.050,0.000,0.000
+,NGA:OFFICE,1.13,2.06,68.00,0.736,0.050,0.000,0.000
+,NGA:SERVICE,1.10,2.01,66.35,0.882,0.076,0.000,0.000
+,NGA:TRANSPLANT,3.14,5.73,188.92,0.740,0.042,0.000,0.000
+,NGA:CAS,11.96,21.82,719.09,0.604,0.035,0.000,0.000
+,NGA:CLEANING,1.59,2.90,95.50,1.140,0.041,0.000,0.000
+Values shown for a single zone without multipliers
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Object Count Summary
+FOR:,Entire Facility
+Surfaces by Class
+
+,,Total,Outdoors
+,Wall,122,38
+,Floor,25,23
+,Roof,24,22
+,Internal Mass,0,0
+,Building Detached Shading,0,0
+,Fixed Detached Shading,0,0
+,Window,6,6
+,Door,0,0
+,Glass Door,0,0
+,Shading,0,0
+,Overhang,0,0
+,Fin,0,0
+,Tubular Daylighting Device Dome,0,0
+,Tubular Daylighting Device Diffuser,0,0
+
+
+HVAC
+
+,,Count
+,HVAC Air Loops,4
+,Conditioned Zones,13
+,Unconditioned Zones,5
+,Supply Plenums,0
+,Return Plenums,0
+
+
+Input Fields
+
+,,Count
+,IDF Objects,754
+,Defaulted Fields,609
+,Fields with Defaults,2917
+,Autosized Fields,228
+,Autosizable Fields,250
+,Autocalculated Fields,131
+,Autocalculatable Fields,432
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Sensible Heat Gain Summary
+FOR:,Entire Facility
+Annual Building Sensible Heat Gain Components
+
+,,HVAC Zone Eq & Other Sensible Air Heating [GJ],HVAC Zone Eq & Other Sensible Air Cooling [GJ],HVAC Terminal Unit Sensible Air Heating [GJ],HVAC Terminal Unit Sensible Air Cooling [GJ],HVAC Input Heated Surface Heating [GJ],HVAC Input Cooled Surface Cooling [GJ],People Sensible Heat Addition [GJ],Lights Sensible Heat Addition [GJ],Equipment Sensible Heat Addition [GJ],Window Heat Addition [GJ],Interzone Air Transfer Heat Addition [GJ],Infiltration Heat Addition [GJ],Opaque Surface Conduction and Other Heat Addition [GJ],Equipment Sensible Heat Removal [GJ],Window Heat Removal [GJ],Interzone Air Transfer Heat Removal [GJ],Infiltration Heat Removal [GJ],Opaque Surface Conduction and Other Heat Removal [GJ]
+,GA3F:GA3F,0.000,0.000,0.000,-5291.435,0.000,0.000,0.871,166.086,191.110,0.000,0.000,18.053,5039.318,0.000,0.000,0.000,-124.003,0.000
+,GA2F:GA2F,0.000,0.000,0.000,-4861.328,0.000,0.000,0.869,166.086,191.110,0.000,0.000,4.400,4530.757,0.000,0.000,0.000,-31.894,0.000
+,GA1F:GA1F,0.000,0.000,0.000,-3490.168,0.000,0.000,0.879,166.246,191.295,0.000,0.000,4.309,3154.579,0.000,0.000,0.000,-27.140,0.000
+,GERMINATION:GERMINATION,1.453,-6.343,0.000,0.000,0.000,0.000,0.048,9.164,10.545,0.000,0.000,0.638,0.000,0.000,0.000,0.000,-5.164,-10.339
+,NGA:LUNCH,0.000,0.000,6.216,-1.901,0.000,0.000,1.672,3.169,3.646,2.846,0.000,0.426,0.000,0.000,-1.816,0.000,-5.503,-8.756
+,NGA:MENS,0.000,0.000,3.660,-1.395,0.000,0.000,1.702,3.248,3.737,0.000,0.000,0.292,0.000,0.000,0.000,0.000,-3.737,-7.507
+,NGA:WOMENS,0.000,0.000,3.591,-1.325,0.000,0.000,1.702,3.248,3.737,0.000,0.000,0.292,0.000,0.000,0.000,0.000,-3.739,-7.506
+,NGA:STORAGE,0.000,0.000,3.604,-1.363,0.000,0.000,1.700,3.248,3.737,0.000,0.000,0.291,0.000,0.000,0.000,0.000,-3.741,-7.476
+,NGA:OFFICE,0.000,0.000,3.945,-1.726,0.000,0.000,1.688,3.248,3.737,1.747,0.000,0.286,0.000,0.000,-0.921,0.000,-3.750,-8.255
+,NGA:SERVICE,0.000,0.000,6.171,-1.805,0.000,0.000,1.660,3.169,3.646,2.957,0.000,0.413,0.000,0.000,-1.806,0.000,-5.515,-8.889
+,NGA:TRANSPLANT,0.000,0.000,10.883,-4.470,0.000,0.000,4.741,9.024,10.383,2.356,0.000,0.691,0.000,0.000,-1.876,0.000,-8.805,-22.927
+,NGA:CAS,0.000,0.000,23.375,-17.075,0.000,0.000,17.572,34.348,39.523,0.000,0.000,2.076,0.000,0.000,0.000,0.000,-28.039,-71.779
+,NGA:CLEANING,0.000,0.000,1.231,-6.526,0.000,0.000,2.242,4.561,5.249,0.000,0.000,0.289,0.000,0.000,0.000,0.000,-4.497,-2.549
+,MECH:MECH,0.000,0.000,0.000,0.000,0.000,0.000,5.739,9.938,11.435,0.000,0.000,0.749,0.001,0.000,0.000,0.000,-5.920,-21.940
+,ELEVATOR:ELEVATOR,0.000,0.000,0.000,0.000,0.000,0.000,2.017,3.176,3.655,0.000,0.000,1.363,0.000,0.000,0.000,0.000,-6.227,-3.983
+,STAIRS1:STAIRS1,0.000,0.000,0.000,0.000,0.000,0.000,0.757,1.116,1.284,0.000,0.000,1.689,0.000,0.000,0.000,0.000,-2.953,-1.894
+,STAIRS2:STAIRS2,0.000,0.000,0.000,0.000,0.000,0.000,0.417,1.247,1.435,0.000,0.000,0.038,9.742,0.000,0.000,0.000,-12.880,0.000
+,MECHSHAFT:MECHSHAFT,0.000,0.000,0.000,0.000,0.000,0.000,19.657,30.933,35.594,0.000,0.000,6.980,0.000,0.000,0.000,0.000,-29.333,-63.832
+,Total Facility,1.453,-6.343,62.675,-13680.517,0.000,0.000,65.933,621.254,714.861,9.905,0.000,43.273,12734.397,0.000,-6.418,0.000,-312.840,-247.632
+
+
+Peak Cooling Sensible Heat Gain Components
+
+,,Time of Peak {TIMESTAMP},HVAC Zone Eq & Other Sensible Air Heating [W],HVAC Zone Eq & Other Sensible Air Cooling [W],HVAC Terminal Unit Sensible Air Heating [W],HVAC Terminal Unit Sensible Air Cooling [W],HVAC Input Heated Surface Heating [W],HVAC Input Cooled Surface Cooling [W],People Sensible Heat Addition [W],Lights Sensible Heat Addition [W],Equipment Sensible Heat Addition [W],Window Heat Addition [W],Interzone Air Transfer Heat Addition [W],Infiltration Heat Addition [W],Opaque Surface Conduction and Other Heat Addition [W],Equipment Sensible Heat Removal [W],Window Heat Removal [W],Interzone Air Transfer Heat Removal [W],Infiltration Heat Removal [W],Opaque Surface Conduction and Other Heat Removal [W]
+,GA3F:GA3F,26-JUN-15:00,0.00,0.00,0.00,-267682.40,0.00,0.00,79.99,12833.87,10070.31,0.00,0.00,7207.66,237490.56,0.00,-0.00,0.00,0.00,0.00
+,GA2F:GA2F,26-JUN-15:00,0.00,0.00,0.00,-236611.35,0.00,0.00,79.99,12833.87,10070.31,0.00,0.00,1822.42,211804.76,0.00,-0.00,0.00,0.00,0.00
+,GA1F:GA1F,26-JUN-15:00,0.00,0.00,0.00,-173023.85,0.00,0.00,80.07,12846.27,10080.04,0.00,0.00,1611.32,148406.15,0.00,-0.00,0.00,0.00,0.00
+,GERMINATION:GERMINATION,26-JUN-16:00,0.00,-1231.21,0.00,0.00,0.00,0.00,4.41,708.11,555.63,0.00,0.00,288.74,0.00,0.00,-0.00,0.00,0.00,-325.68
+,NGA:LUNCH,26-JUN-15:00,0.00,0.00,0.00,-459.50,0.00,0.00,133.02,244.88,192.15,420.60,0.00,231.04,0.00,0.00,-0.00,0.00,0.00,-762.18
+,NGA:MENS,26-JUN-16:00,0.00,0.00,0.00,-250.09,0.00,0.00,136.33,250.97,196.93,0.00,0.00,150.22,0.00,0.00,-0.00,0.00,0.00,-484.36
+,NGA:WOMENS,26-JUN-16:00,0.00,0.00,0.00,-235.53,0.00,0.00,136.33,250.97,196.93,0.00,0.00,150.21,0.00,0.00,-0.00,0.00,0.00,-498.92
+,NGA:STORAGE,26-JUN-15:00,0.00,0.00,0.00,-239.53,0.00,0.00,136.33,250.97,196.93,0.00,0.00,155.80,0.00,0.00,-0.00,0.00,0.00,-500.50
+,NGA:OFFICE,03-SEP-13:30,0.00,0.00,0.00,-271.22,0.00,0.00,136.33,250.97,196.93,267.50,0.00,98.78,0.00,0.00,-0.00,0.00,0.00,-679.29
+,NGA:SERVICE,26-JUN-14:00,0.00,0.00,0.00,-347.15,0.00,0.00,133.01,244.88,192.15,123.51,0.00,216.17,0.00,0.00,-0.00,0.00,0.00,-562.56
+,NGA:TRANSPLANT,26-JUN-16:00,0.00,0.00,0.00,-900.66,0.00,0.00,378.80,697.28,547.13,805.18,0.00,354.99,0.00,0.00,-0.00,0.00,0.00,-1882.71
+,NGA:CAS,26-JUN-15:00,0.00,0.00,0.00,-2601.74,0.00,0.00,1441.79,2654.13,2082.61,0.00,0.00,1154.31,0.00,0.00,-0.00,0.00,0.00,-4731.09
+,NGA:CLEANING,26-JUN-15:00,0.00,0.00,0.00,-712.19,0.00,0.00,191.48,352.47,276.57,0.00,0.00,180.59,0.00,0.00,-0.00,0.00,0.00,-288.92
+,MECH:MECH,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ELEVATOR:ELEVATOR,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,STAIRS1:STAIRS1,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,STAIRS2:STAIRS2,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,MECHSHAFT:MECHSHAFT,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Total Facility,26-JUN-15:00,0.00,-1230.35,0.00,-683300.78,0.00,0.00,4980.52,48005.93,37668.65,1302.84,0.00,17835.46,574737.72,0.00,0.00,0.00,0.00,0.00
+
+
+Peak Heating Sensible Heat Gain Components
+
+,,Time of Peak {TIMESTAMP},HVAC Zone Eq & Other Sensible Air Heating [W],HVAC Zone Eq & Other Sensible Air Cooling [W],HVAC Terminal Unit Sensible Air Heating [W],HVAC Terminal Unit Sensible Air Cooling [W],HVAC Input Heated Surface Heating [W],HVAC Input Cooled Surface Cooling [W],People Sensible Heat Addition [W],Lights Sensible Heat Addition [W],Equipment Sensible Heat Addition [W],Window Heat Addition [W],Interzone Air Transfer Heat Addition [W],Infiltration Heat Addition [W],Opaque Surface Conduction and Other Heat Addition [W],Equipment Sensible Heat Removal [W],Window Heat Removal [W],Interzone Air Transfer Heat Removal [W],Infiltration Heat Removal [W],Opaque Surface Conduction and Other Heat Removal [W]
+,GA3F:GA3F,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,GA2F:GA2F,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,GA1F:GA1F,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,GERMINATION:GERMINATION,31-DEC-23:00,667.72,0.00,0.00,0.00,0.00,0.00,0.25,39.34,246.95,0.00,0.00,0.00,0.00,0.00,-0.00,0.00,-692.73,-261.53
+,NGA:LUNCH,31-DEC-23:00,0.00,0.00,1021.30,0.00,0.00,0.00,8.72,13.60,85.40,0.00,0.00,0.00,0.00,0.00,-241.95,0.00,-709.22,-177.86
+,NGA:MENS,31-DEC-23:00,0.00,0.00,613.79,0.00,0.00,0.00,8.94,13.94,87.52,0.00,0.00,0.00,0.00,0.00,-0.00,0.00,-478.26,-245.93
+,NGA:WOMENS,31-DEC-23:00,0.00,0.00,602.34,0.00,0.00,0.00,8.94,13.94,87.52,0.00,0.00,0.00,0.00,0.00,-0.00,0.00,-478.26,-234.48
+,NGA:STORAGE,31-DEC-23:30,0.00,0.00,605.99,0.00,0.00,0.00,8.93,13.94,87.52,0.00,0.00,0.00,0.00,0.00,-0.00,0.00,-478.25,-238.13
+,NGA:OFFICE,31-DEC-23:00,0.00,0.00,672.33,0.00,0.00,0.00,8.94,13.94,87.52,0.00,0.00,0.00,0.00,0.00,-121.60,0.00,-478.23,-182.91
+,NGA:SERVICE,31-DEC-23:00,0.00,0.00,1025.17,0.00,0.00,0.00,8.72,13.60,85.40,0.00,0.00,0.00,0.00,0.00,-241.90,0.00,-709.21,-181.78
+,NGA:TRANSPLANT,31-DEC-23:00,0.00,0.00,1800.03,0.00,0.00,0.00,24.83,38.74,243.17,0.00,0.00,0.00,0.00,0.00,-241.12,0.00,-1130.17,-735.47
+,NGA:CAS,31-DEC-23:00,0.00,0.00,4544.03,0.00,0.00,0.00,94.50,147.45,925.60,0.00,0.00,0.00,0.00,0.00,-0.00,0.00,-3543.14,-2168.45
+,NGA:CLEANING,31-DEC-23:00,0.00,0.00,638.03,0.00,0.00,0.00,12.55,19.58,122.92,0.00,0.00,0.00,0.00,0.00,-0.00,0.00,-554.33,-238.76
+,MECH:MECH,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ELEVATOR:ELEVATOR,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,STAIRS1:STAIRS1,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,STAIRS2:STAIRS2,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,MECHSHAFT:MECHSHAFT,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Total Facility,31-DEC-23:00,-112618.48,113286.19,11522.16,-113286.19,0.00,0.00,374.81,2667.00,16741.62,0.00,0.00,0.00,121649.75,0.00,-846.57,0.00,-39490.30,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Standard 62.1 Summary
+FOR:,Entire Facility
+System Ventilation Requirements for Cooling
+
+,,Sum of Zone Primary Air Flow - Vpz-sum [m3/s],System Population - Ps,Sum of Zone Population - Pz-sum,Occupant Diversity - D,Origin of D,Uncorrected Outdoor Air Intake Airflow - Vou [m3/s],System Primary Airflow - Vps [m3/s],Average Outdoor Air Fraction - Xs,System Ventilation Efficiency - Ev,Calculation Method for Ev,Outdoor Air Intake Flow - Vot [m3/s],Percent Outdoor Air - %OA,Environment Name of Peak System Population - Ps,Date and Time of Last Peak System Population - Ps
+,NGA VAV,0.9246,0.0000,42.7352,1.0000,Calculated from schedules,0.5342,0.9246,0.5777,1.0000,Not calculated,0.5342,0.5777,,
+,GA1F VAV,43.2900,0.0000,0.9731,1.0000,Calculated from schedules,0.0122,43.2900,0.0003,1.0000,Not calculated,0.0122,0.0003,,
+,GA2F VAV,59.2542,0.0000,0.9722,1.0000,Calculated from schedules,0.0122,59.2542,0.0002,1.0000,Not calculated,0.0122,0.0002,,
+,GA3F VAV,66.7021,0.0000,0.9722,1.0000,Calculated from schedules,0.0122,66.7021,0.0002,1.0000,Not calculated,0.0122,0.0002,,
+
+
+System Ventilation Requirements for Heating
+
+,,Sum of Zone Primary Air Flow - Vpz-sum [m3/s],System Population - Ps,Sum of Zone Population - Pz-sum,Occupant Diversity - D,Origin of D,Uncorrected Outdoor Air Intake Airflow - Vou [m3/s],System Primary Airflow - Vps [m3/s],Average Outdoor Air Fraction - Xs,System Ventilation Efficiency - Ev,Calculation Method for Ev,Outdoor Air Intake Flow Vot [m3/s],Percent Outdoor Air - %OA,Environment Name of Peak System Population - Ps,Date and Time of Last Peak System Population - Ps
+,NGA VAV,0.9246,0.0000,42.7352,1.0000,Calculated from schedules,0.5342,0.2774,1.0000,1.0000,Not calculated,0.5342,1.9258,,
+,GA1F VAV,12.9870,0.0000,0.9731,1.0000,Calculated from schedules,0.0122,12.9870,1.0000,1.0000,Not calculated,0.0122,0.0009,,
+,GA2F VAV,17.7763,0.0000,0.9722,1.0000,Calculated from schedules,0.0122,17.7763,1.0000,1.0000,Not calculated,0.0122,0.0007,,
+,GA3F VAV,20.0106,0.0000,0.9722,1.0000,Calculated from schedules,0.0122,20.0106,1.0000,1.0000,Not calculated,0.0122,0.0006,,
+
+
+Zone Ventilation Parameters
+
+,,AirLoop Name,People Outdoor Air Rate - Rp [m3/s-person],Zone Population - Pz,Area Outdoor Air Rate - Ra [m3/s-m2],Zone Floor Area - Az [m2],Breathing Zone Outdoor Airflow - Vbz [m3/s],Cooling Zone Air Distribution Effectiveness - Ez-clg,Cooling Zone Outdoor Airflow - Voz-clg [m3/s],Heating Zone Air Distribution Effectiveness - Ez-htg,Heating Zone Outdoor Airflow - Voz-htg [m3/s]
+,GA3F:GA3F,GA3F VAV,0.012500,0.9722,0.000000,950.66,0.0122,1.0000,0.0122,1.000,0.0122
+,GA2F:GA2F,GA2F VAV,0.012500,0.9722,0.000000,950.66,0.0122,1.0000,0.0122,1.000,0.0122
+,GA1F:GA1F,GA1F VAV,0.012500,0.9731,0.000000,951.58,0.0122,1.0000,0.0122,1.000,0.0122
+,NGA:LUNCH,NGA VAV,0.012500,2.0134,0.000000,18.14,0.0252,1.0000,0.0252,1.000,0.0252
+,NGA:MENS,NGA VAV,0.012500,2.0636,0.000000,18.59,0.0258,1.0000,0.0258,1.000,0.0258
+,NGA:WOMENS,NGA VAV,0.012500,2.0636,0.000000,18.59,0.0258,1.0000,0.0258,1.000,0.0258
+,NGA:STORAGE,NGA VAV,0.012500,2.0636,0.000000,18.59,0.0258,1.0000,0.0258,1.000,0.0258
+,NGA:OFFICE,NGA VAV,0.012500,2.0636,0.000000,18.59,0.0258,1.0000,0.0258,1.000,0.0258
+,NGA:SERVICE,NGA VAV,0.012500,2.0134,0.000000,18.14,0.0252,1.0000,0.0252,1.000,0.0252
+,NGA:TRANSPLANT,NGA VAV,0.012500,5.7332,0.000000,51.65,0.0717,1.0000,0.0717,1.000,0.0717
+,NGA:CAS,NGA VAV,0.012500,21.8229,0.000000,196.60,0.2728,1.0000,0.2728,1.000,0.2728
+,NGA:CLEANING,NGA VAV,0.012500,2.8981,0.000000,26.11,0.0362,1.0000,0.0362,1.000,0.0362
+
+
+System Ventilation Parameters
+
+,,People Outdoor Air Rate - Rp [m3/s-person],Sum of Zone Population - Pz-sum,Area Outdoor Air Rate - Ra [m3/s-m2],Sum of Zone Floor Area - Az-sum [m2],Breathing Zone Outdoor Airflow - Vbz [m3/s],Cooling Zone Outdoor Airflow - Voz-clg [m3/s],Heating Zone Outdoor Airflow - Voz-htg [m3/s]
+,NGA VAV,0.012500,42.74,0.000000,385.0018,0.5342,0.5342,0.5342
+,GA1F VAV,0.012500,0.97,0.000000,951.5757,0.0122,0.0122,0.0122
+,GA2F VAV,0.012500,0.97,0.000000,950.6571,0.0122,0.0122,0.0122
+,GA3F VAV,0.012500,0.97,0.000000,950.6571,0.0122,0.0122,0.0122
+
+
+Zone Ventilation Calculations for Cooling Design
+
+,,AirLoop Name,Box Type,Zone Primary Airflow - Vpz [m3/s],Zone Discharge Airflow - Vdz [m3/s],Minimum Zone Primary Airflow - Vpz-min [m3/s],Is Vpz-min calculated using the Standard 62.1 Simplified Procedure?,Zone Outdoor Airflow Cooling - Voz-clg [m3/s],Primary Outdoor Air Fraction - Zpz,Primary Air Fraction - Ep,Secondary Recirculation Fraction- Er,Supply Air Fraction- Fa,Mixed Air Fraction - Fb,Outdoor Air Fraction - Fc,Zone Ventilation Efficiency - Evz
+,GA3F:GA3F,GA3F VAV,AIRTERMINAL:SINGLEDUCT:VAV:NOREHEAT,66.7021,66.7021,20.0106,No,0.0122,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,GA2F:GA2F,GA2F VAV,AIRTERMINAL:SINGLEDUCT:VAV:NOREHEAT,59.2542,59.2542,17.7763,No,0.0122,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,GA1F:GA1F,GA1F VAV,AIRTERMINAL:SINGLEDUCT:VAV:NOREHEAT,43.2900,43.2900,12.9870,No,0.0122,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:LUNCH,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0614,0.0614,0.0184,No,0.0252,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:MENS,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0393,0.0393,0.0118,No,0.0258,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:WOMENS,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0371,0.0371,0.0111,No,0.0258,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:STORAGE,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0380,0.0380,0.0114,No,0.0258,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:OFFICE,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0473,0.0473,0.0142,No,0.0258,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:SERVICE,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0554,0.0554,0.0166,No,0.0252,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:TRANSPLANT,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.1323,0.1323,0.0397,No,0.0717,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:CAS,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.4110,0.4110,0.1233,No,0.2728,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:CLEANING,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.1029,0.1029,0.0309,No,0.0362,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+
+
+System Ventilation Calculations for Cooling Design
+
+,,Sum of Zone Primary Airflow - Vpz-sum [m3/s],System Primary Airflow - Vps [m3/s],Sum of Zone Discharge Airflow - Vdz-sum [m3/s],Sum of Min Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Cooling - Voz-clg [m3/s],Zone Ventilation Efficiency - Evz-min
+,NGA VAV,0.9246,0.9246,0.9246,0.2774,0.5342,1.0000
+,GA1F VAV,43.2900,43.2900,43.2900,12.9870,0.0122,1.0000
+,GA2F VAV,59.2542,59.2542,59.2542,17.7763,0.0122,1.0000
+,GA3F VAV,66.7021,66.7021,66.7021,20.0106,0.0122,1.0000
+
+
+Zone Ventilation Calculations for Heating Design
+
+,,AirLoop Name,Box Type,Zone Primary Airflow - Vpz [m3/s],Zone Discharge Airflow - Vdz [m3/s],Minimum Zone Primary Airflow - Vpz-min [m3/s],Is Vpz-min calculated using the Standard 62.1 Simplified Procedure?,Zone Outdoor Airflow Heating - Voz-htg [m3/s],Primary Outdoor Air Fraction - Zpz,Primary Air Fraction - Ep,Secondary Recirculation Fraction- Er,Supply Air Fraction- Fa,Mixed Air Fraction - Fb,Outdoor Air Fraction - Fc,Zone Ventilation Efficiency - Evz
+,GA3F:GA3F,GA3F VAV,AIRTERMINAL:SINGLEDUCT:VAV:NOREHEAT,20.0106,20.0106,20.0106,No,0.0122,1.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,GA2F:GA2F,GA2F VAV,AIRTERMINAL:SINGLEDUCT:VAV:NOREHEAT,17.7763,17.7763,17.7763,No,0.0122,1.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,GA1F:GA1F,GA1F VAV,AIRTERMINAL:SINGLEDUCT:VAV:NOREHEAT,12.9870,12.9870,12.9870,No,0.0122,1.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:LUNCH,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0614,0.0614,0.0184,No,0.0252,0.4727,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:MENS,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0393,0.0393,0.0118,No,0.0258,0.7457,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:WOMENS,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0371,0.0371,0.0111,No,0.0258,0.7576,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:STORAGE,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0380,0.0380,0.0114,No,0.0258,0.7540,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:OFFICE,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0473,0.0473,0.0142,No,0.0258,0.6936,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:SERVICE,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.0554,0.0554,0.0166,No,0.0252,0.4712,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:TRANSPLANT,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.1323,0.1323,0.0397,No,0.0717,0.7060,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:CAS,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.4110,0.4110,0.1233,No,0.2728,1.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+,NGA:CLEANING,NGA VAV,AIRTERMINAL:SINGLEDUCT:VAV:REHEAT,0.1029,0.1029,0.0309,No,0.0362,1.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+
+
+System Ventilation Calculations for Heating Design
+
+,,Sum of Zone Primary Airflow - Vpz-sum [m3/s],System Primary Airflow - Vps [m3/s],Sum of Zone Discharge Airflow - Vdz-sum [m3/s],Sum of Min Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Heating - Voz-htg [m3/s],Zone Ventilation Efficiency - Evz-min
+,NGA VAV,0.9246,0.2774,0.2774,0.2774,0.5342,1.0000
+,GA1F VAV,12.9870,12.9870,12.9870,12.9870,0.0122,1.0000
+,GA2F VAV,17.7763,17.7763,17.7763,17.7763,0.0122,1.0000
+,GA3F VAV,20.0106,20.0106,20.0106,20.0106,0.0122,1.0000
+
+

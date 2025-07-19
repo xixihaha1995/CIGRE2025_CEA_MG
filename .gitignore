@@ -1,0 +1,16 @@
+*.audit
+*.bnd
+*.dxf
+*.eio
+*.err
+*.eso
+*.mdd
+*.mtd
+*.mtr
+*.rdd
+*.rvaudit
+*.shd
+*.svg
+*.html
+*.xlsx
+/.idea
