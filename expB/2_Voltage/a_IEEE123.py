@@ -32,7 +32,7 @@ def runDSS(controlmode, monitorMode=2):
     dss.Text.Command = 'New Tshape.MyTemp npts=24 interval=1 ' \
                        'temp=[25, 25, 25, 25, 25, 25, 25, 25, 35, 40, 45, 50  60 60  55 40  35  30  25 25 25 25 25 25]'
 
-    dss.Text.Command = 'New PVSystem.PVSystem1600kW phases=3 bus1=nodePV kV=0.48 debugtrace=yes  ' \
+    dss.Text.Command = 'New PVSystem.PVSystem1745kW phases=3 bus1=nodePV kV=0.48 debugtrace=yes  ' \
                        'kVA=1745  irrad=1.0  Pmpp=1745 temperature=25 PF=1 ' \
                        ' %cutin=0.1 %cutout=0.1  effcurve=Myeff  P-TCurve=MyPvsT Daily=PVLoadShape2  TDaily=MyTemp'
     dss.Text.Command = 'New Transformer.transPV  phases=3 xhl=5.750000  ' \
@@ -154,6 +154,6 @@ def runDSS(controlmode, monitorMode=2):
     plt.show()
 
 monitor_mode = 2
-monitor_mode = 0  # Set to 0 for voltage profile, 2 for tap operations
+# monitor_mode = 0  # Set to 0 for voltage profile, 2 for tap operations
 runDSS(0, monitor_mode)
 runDSS(1, monitor_mode)
